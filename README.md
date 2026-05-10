@@ -134,6 +134,14 @@ The selected API base URL is persisted in browser `localStorage`.
 
 Recommended: deploy as a Docker-backed Render Web Service for more consistent production behavior.
 
+The Docker image preloads the default embedding model during build:
+
+```text
+sentence-transformers/all-MiniLM-L6-v2
+```
+
+This keeps Render startup faster and lowers RAM usage compared with `all-mpnet-base-v2`, which is risky on free-tier instances.
+
 1. Push this repo to GitHub.
 2. Create a **Render Web Service** from the repo.
 3. Select **Docker** as the runtime/environment.
@@ -170,6 +178,25 @@ Then open:
 - `http://127.0.0.1:8000/health`
 - Use `http://127.0.0.1:8000` as backend URL in `index.html`
 
+## ⚠️ Embedding Model / Qdrant Note
+
+Default embedding model:
+
+```env
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+EMBEDDING_DIM=384
+```
+
+If you previously indexed data with `all-mpnet-base-v2` (`768` dimensions), delete/reset your old Qdrant database before running with MiniLM (`384` dimensions), otherwise vector dimension mismatch errors can happen.
+
+Local reset example:
+
+```powershell
+Remove-Item -Recurse -Force qdrant_db_v3
+```
+
+On Render Docker deploys, the container starts fresh unless you attach persistent disk storage.
+
 ## 📄 Deploy Frontend on GitHub Pages
 
 1. Keep `index.html` at repo root (already added).
@@ -194,7 +221,7 @@ Bot: Goodbye! 👋
 
 ## 🛠️ Technical Details
 
-- **Embedding Model**: `sentence-transformers/all-mpnet-base-v2`
+- **Embedding Model**: `sentence-transformers/all-MiniLM-L6-v2` by default for faster Render startup and lower RAM usage
 - **Vector Database**: Qdrant (local storage)
 - **LLM**: Gemini, Mistral, Groq, and OpenRouter via OpenAI-compatible APIs
 - **Chunking**: `langchain-text-splitters` recursive character text splitter
@@ -214,7 +241,7 @@ Environment variables in `.env`:
 - `QDRANT_COLLECTION` (optional): Custom collection name
 - `QDRANT_PATH` (optional): Local vector database path, default `./qdrant_db_v3`
 - `EMBEDDING_MODEL` (optional): Custom embedding model
-- `EMBEDDING_DIM` (optional): Embedding vector dimension, default `768`
+- `EMBEDDING_DIM` (optional): Embedding vector dimension, default `384`
 
 ## ⚠️ Error Handling
 

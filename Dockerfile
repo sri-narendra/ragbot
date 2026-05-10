@@ -16,6 +16,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
+# Preload the default embedding model at build time so Render startup is faster
+# and health checks are less likely to timeout on free-tier instances.
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')"
+
 COPY . .
 
 EXPOSE 8000

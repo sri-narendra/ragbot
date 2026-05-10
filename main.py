@@ -3,6 +3,7 @@ import json
 import sys
 import logging
 import time
+import shutil
 from dataclasses import dataclass
 from typing import List, Dict, Any
 from threading import Lock
@@ -40,6 +41,10 @@ TOP_K = int(os.getenv("TOP_K", "5"))
 DEFAULT_TEMPERATURE = 0.2
 DEFAULT_MAX_TOKENS = 700
 SKIPPED_INDEX_SECTIONS = {"source_file_snapshots"}
+QDRANT_FORCE_RECREATE_ON_DIM_MISMATCH = os.getenv(
+    "QDRANT_FORCE_RECREATE_ON_DIM_MISMATCH",
+    "true",
+).strip().lower() in {"1", "true", "yes", "on"}
 MAX_REQUEST_BYTES = int(os.getenv("MAX_REQUEST_BYTES", "4096"))
 MAX_MESSAGE_CHARS = int(os.getenv("MAX_MESSAGE_CHARS", "500"))
 RATE_LIMIT_REQUESTS = int(os.getenv("RATE_LIMIT_REQUESTS", "12"))
@@ -58,6 +63,19 @@ CUSTOMER_FRIENDLY_FALLBACK = (
     "Thanks for asking! I don’t have that exact detail in my current knowledge base yet, "
     "but Flashoot focuses on fast, high-quality short-form video creation and creator-driven services. "
     "If you’d like, I can share our services, delivery model, and social links."
+)
+CAPABILITY_QUESTION_PATTERNS = (
+    "what can you do",
+    "what do you do",
+    "how can you help",
+    "your services",
+    "services you offer",
+)
+CAPABILITY_RESPONSE = (
+    "I can help you with Flashoot information like services, pricing packages, "
+    "booking flow, delivery model, social links, and company details. "
+    "For quick help, ask things like: 'What services do you offer?', "
+    "'How fast is delivery?', or 'Share your social media links.'"
 )
 ALLOWED_ORIGINS = [origin.strip() for origin in os.getenv("ALLOWED_ORIGINS", "*").split(",") if origin.strip()]
 
@@ -103,6 +121,12 @@ def _check_rate_limit(ip: str) -> tuple[bool, str]:
         _last_request_time[ip] = now
 
     return True, ""
+
+
+def _is_capability_question_text(question: str) -> bool:
+    """Detect generic capability questions without initializing the chatbot."""
+    q = (question or "").strip().lower()
+    return any(pattern in q for pattern in CAPABILITY_QUESTION_PATTERNS)
 
 
 @dataclass
@@ -219,6 +243,35 @@ class CompanyChatbot:
             path=QDRANT_PATH,
             prefer_grpc=True
         )
+
+        if client.collection_exists(collection_name=COLLECTION_NAME):
+            collection = client.get_collection(collection_name=COLLECTION_NAME)
+            vectors_config = collection.config.params.vectors
+            existing_size = getattr(vectors_config, "size", None)
+
+            if existing_size != EMBEDDING_DIM:
+                message = (
+                    f"Existing Qdrant collection '{COLLECTION_NAME}' uses "
+                    f"{existing_size} dimensions, but selected embeddings use "
+                    f"{EMBEDDING_DIM} dimensions."
+                )
+
+                if not QDRANT_FORCE_RECREATE_ON_DIM_MISMATCH:
+                    raise ValueError(
+                        f"{message} Set QDRANT_FORCE_RECREATE_ON_DIM_MISMATCH=true "
+                        "or reset the Qdrant database."
+                    )
+
+                logger.warning("%s Resetting local Qdrant storage.", message)
+                if hasattr(client, "close"):
+                    client.close()
+                if os.path.isdir(QDRANT_PATH):
+                    shutil.rmtree(QDRANT_PATH)
+                client = qdrant_client.QdrantClient(
+                    path=QDRANT_PATH,
+                    prefer_grpc=True
+                )
+                self.collection_was_created = True
 
         if not client.collection_exists(collection_name=COLLECTION_NAME):
             client.create_collection(
@@ -540,24 +593,11 @@ class CompanyChatbot:
 
     def _is_capability_question(self, question: str) -> bool:
         """Detect generic capability questions like 'what can you do'."""
-        q = (question or "").strip().lower()
-        capability_patterns = (
-            "what can you do",
-            "what do you do",
-            "how can you help",
-            "your services",
-            "services you offer",
-        )
-        return any(pattern in q for pattern in capability_patterns)
+        return _is_capability_question_text(question)
 
     def _capability_response(self) -> str:
         """Return a concise, customer-friendly capability response."""
-        return (
-            "I can help you with Flashoot information like services, pricing packages, "
-            "booking flow, delivery model, social links, and company details. "
-            "For quick help, ask things like: 'What services do you offer?', "
-            "'How fast is delivery?', or 'Share your social media links.'"
-        )
+        return CAPABILITY_RESPONSE
 
     def ask(self, question: str) -> str:
         """Answer a user question using retrieved company context."""
@@ -738,6 +778,11 @@ def create_app() -> Flask:
         if len(message) > MAX_MESSAGE_CHARS:
             logger.warning("Rejected oversized message from IP %s: %s chars", ip, len(message))
             return jsonify({"error": f"message is too long. Maximum {MAX_MESSAGE_CHARS} characters allowed."}), 413
+
+        if _is_capability_question_text(message):
+            logger.info("API fast capability response to %s | question: %s", ip, message)
+            logger.info("API response to %s | answer: %s", ip, CAPABILITY_RESPONSE)
+            return jsonify({"reply": CAPABILITY_RESPONSE})
 
         try:
             logger.info("API request from %s | question: %s", ip, message)

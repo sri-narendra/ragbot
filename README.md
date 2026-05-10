@@ -212,6 +212,14 @@ EMBEDDING_DIM=384
 
 If you previously indexed data with `all-mpnet-base-v2` (`768` dimensions), delete/reset your old Qdrant database before running with MiniLM (`384` dimensions), otherwise vector dimension mismatch errors can happen.
 
+By default, the app can automatically recreate the Qdrant collection when it detects an embedding dimension mismatch:
+
+```env
+QDRANT_FORCE_RECREATE_ON_DIM_MISMATCH=true
+```
+
+Set it to `false` if you prefer the app to fail instead of recreating the collection.
+
 Local reset example:
 
 ```powershell
@@ -265,6 +273,7 @@ Environment variables in `.env`:
 - `RATE_LIMIT_REQUESTS`, `RATE_LIMIT_WINDOW_SECONDS`, `MIN_SECONDS_BETWEEN_REQUESTS`: Basic per-IP abuse controls
 - `QDRANT_COLLECTION` (optional): Custom collection name
 - `QDRANT_PATH` (optional): Local vector database path, default `./qdrant_db_v3`
+- `QDRANT_FORCE_RECREATE_ON_DIM_MISMATCH`: Recreate collection when embedding dimensions changed, default `true`
 - `EMBEDDING_MODEL` (optional): Custom embedding model
 - `EMBEDDING_DIM` (optional): Embedding vector dimension, default `384`
 

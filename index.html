@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashoot Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #f7f7fb; }
+    .card { background: #fff; border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.08); padding: 16px; }
+    h1 { margin-top: 0; }
+    .row { display: flex; gap: 8px; margin-bottom: 12px; }
+    input, textarea, button { font-size: 15px; }
+    input, textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
+    button { padding: 10px 14px; border: 0; border-radius: 8px; background: #3b82f6; color: white; cursor: pointer; }
+    button:disabled { opacity: .6; cursor: not-allowed; }
+    #chat { min-height: 280px; max-height: 460px; overflow: auto; padding: 10px; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+    .msg { margin: 8px 0; }
+    .user { font-weight: bold; color: #1d4ed8; }
+    .bot { font-weight: bold; color: #059669; }
+    .meta { color: #666; font-size: 12px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🤖 Flashoot Chatbot</h1>
+    <div class="row">
+      <input id="apiBase" placeholder="Backend URL (Railway or local)" />
+      <button id="saveBtn">Save</button>
+    </div>
+    <div class="meta">Examples: <code>https://your-railway-app.up.railway.app</code> or <code>http://127.0.0.1:8000</code></div>
+    <br />
+    <div id="chat"></div>
+    <br />
+    <div class="row">
+      <textarea id="message" rows="2" placeholder="Ask anything about Flashoot..."></textarea>
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <script>
+    const chatEl = document.getElementById('chat');
+    const messageEl = document.getElementById('message');
+    const sendBtn = document.getElementById('sendBtn');
+    const apiBaseEl = document.getElementById('apiBase');
+    const saveBtn = document.getElementById('saveBtn');
+
+    const LOCAL_DEFAULT = 'http://127.0.0.1:8000';
+    const storedBase = localStorage.getItem('FLASHOOT_API_BASE');
+    apiBaseEl.value = storedBase || LOCAL_DEFAULT;
+
+    function appendMessage(role, text) {
+      const div = document.createElement('div');
+      div.className = 'msg';
+      div.innerHTML = `<span class="${role}">${role === 'user' ? 'You' : 'Bot'}:</span> ${text}`;
+      chatEl.appendChild(div);
+      chatEl.scrollTop = chatEl.scrollHeight;
+    }
+
+    function currentBase() {
+      return (apiBaseEl.value || '').trim().replace(/\/$/, '');
+    }
+
+    saveBtn.onclick = () => {
+      localStorage.setItem('FLASHOOT_API_BASE', currentBase());
+      appendMessage('bot', `Saved backend URL: ${currentBase()}`);
+    };
+
+    async function sendMessage() {
+      const msg = messageEl.value.trim();
+      if (!msg) return;
+      const base = currentBase();
+      if (!base) return appendMessage('bot', 'Please enter backend URL first.');
+
+      appendMessage('user', msg);
+      messageEl.value = '';
+      sendBtn.disabled = true;
+
+      try {
+        const res = await fetch(`${base}/chat`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: msg })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Request failed');
+        appendMessage('bot', data.reply || 'No response');
+      } catch (err) {
+        appendMessage('bot', `Error: ${err.message}`);
+      } finally {
+        sendBtn.disabled = false;
+      }
+    }
+
+    sendBtn.onclick = sendMessage;
+    messageEl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    appendMessage('bot', 'Welcome! Set your backend URL and start chatting.');
+  </script>
+</body>
+</html>

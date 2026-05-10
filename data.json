@@ -1,0 +1,2772 @@
+{
+  "company": {
+    "name": "Flashoot",
+    "legal_name": "Konchamkode Private Limited",
+    "founded": 2023,
+    "industry": [
+      "Creator Economy",
+      "Real-time Content Creation",
+      "On-demand Videography",
+      "Short-form Video Marketplace",
+      "Technology, Information and Media"
+    ],
+    "headquarters": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postal_code": "500073",
+      "full_address": "Pt No.56&57 Flat No.202, Sri Nagar Colony, Khairatabad, Hyderabad, Telangana 500073, India"
+    },
+    "tagline": "The world's fastest content creation network powered by youth and iPhones",
+    "business_model": "Marketplace connecting customers with reel creators/videographers for instant short-form content creation",
+    "core_positioning": "Uber for Reels",
+    "registered_address": "Pt No.56&57 Flat No.202, Sri Nagar Colony, Khairatabad, Hyderabad, Telangana 500073, India",
+    "support_email": "info@konchamkode.com",
+    "support_phone": [
+      "+91 6305306829",
+      "+91 7032211611"
+    ],
+    "operations": [
+      "India",
+      "UAE",
+      "USA"
+    ],
+    "scale_claims": {
+      "reels_delivered": "50,000+",
+      "brands_partnered": "150+",
+      "client_rating": "4.8+",
+      "linkedin_followers": 15905
+    }
+  },
+  "founders_and_team": [
+    {
+      "name": "Voleti Karthik",
+      "role": "Founder & CEO",
+      "linkedin": "https://www.linkedin.com/in/voleti-karthik/"
+    },
+    {
+      "name": "Shreyak Singh",
+      "role": "Co-Founder",
+      "linkedin": "https://www.linkedin.com/in/shreyak-singh/"
+    },
+    {
+      "name": "Manikanta Bukka",
+      "role": "Core Team / Leadership",
+      "linkedin": "https://www.linkedin.com/in/manikanta-bukka/"
+    },
+    {
+      "name": "Rishabh Singh",
+      "role": "Associated Team Member",
+      "linkedin": "https://www.linkedin.com/in/rishabh-singh/"
+    }
+  ],
+  "funding": {
+    "estimated_total_raised_usd": 352000,
+    "estimated_valuation_usd": 716000,
+    "funding_rounds": [
+      {
+        "type": "Seed",
+        "date": "2024-06",
+        "amount_usd": "Unknown",
+        "investors": [
+          "M N V Raghunandan"
+        ]
+      },
+      {
+        "type": "Seed",
+        "date": "2025-03",
+        "amount_usd": "Unknown",
+        "investors": [
+          "Arun Pamulapati",
+          "Gumpina Sai Prasanth"
+        ]
+      },
+      {
+        "type": "Seed",
+        "date": "2024-06",
+        "investors": [
+          "M N V Raghunandan"
+        ]
+      },
+      {
+        "type": "Seed",
+        "date": "2025-03",
+        "investors": [
+          "Arun Pamulapati",
+          "Gumpina Sai Prasanth"
+        ]
+      }
+    ],
+    "business_model_components": [
+      "Marketplace commission",
+      "Premium package upsells",
+      "Enterprise brand deals",
+      "Gig economy creator network"
+    ],
+    "strategic_advantage": "Hyperlocal rapid creator dispatch network"
+  },
+  "website": {
+    "main_site": "https://www.flashoot.com",
+    "rendering_type": "JavaScript-heavy SPA (React/Next.js)",
+    "hosting": [
+      "Vercel with AWS infrastructure indicators",
+      "Vercel"
+    ],
+    "tracking_id": "AW-16856802105",
+    "tracking_tools": [
+      "Google Ads gtag.js",
+      "Google dataLayer",
+      "Taboola tracking"
+    ],
+    "pages": [
+      {
+        "url": "https://www.flashoot.com/",
+        "type": "homepage",
+        "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+        "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+        "keywords": [
+          "instagram reel makers",
+          "video creators",
+          "content creation",
+          "social media content",
+          "professional reels",
+          "video production",
+          "content creators",
+          "instagram marketing"
+        ]
+      },
+      {
+        "url": "https://www.flashoot.com/discover",
+        "type": "discover",
+        "purpose": "Creator/content discovery section"
+      },
+      {
+        "url": "https://www.flashoot.com/partner",
+        "type": "partner",
+        "purpose": "Partner onboarding and creator network page"
+      },
+      {
+        "url": "https://www.flashoot.com/journey",
+        "type": "journey",
+        "purpose": "Company journey / onboarding / workflow page"
+      }
+    ],
+    "subdomains": [
+      "partner.flashoot.in",
+      "admin.flashoot.in",
+      "mail.flashoot.in",
+      "webmail.flashoot.in",
+      "cpanel.flashoot.in"
+    ],
+    "seo_visibility": "Weak for deep routes (JavaScript rendering)",
+    "crawlability": "Partial (requires JavaScript execution)",
+    "url": "https://www.flashoot.com/",
+    "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+    "language": "en",
+    "last_modified": "2026-04-24",
+    "page_size_bytes": 3326,
+    "framework": "React.js",
+    "type": "Single Page Application"
+  },
+  "social_media": {
+    "linkedin": {
+      "url": "https://in.linkedin.com/company/flashoot",
+      "followers": 15905,
+      "verified": true,
+      "industry": "Technology, Information and Media",
+      "company_size_claim": "1,001-5,000 employees",
+      "company_type": "Privately Held",
+      "_preserved_variants": [
+        "https://in.linkedin.com/company/flashoot"
+      ]
+    },
+    "instagram": {
+      "url_pattern": "https://www.instagram.com/flashoot/",
+      "status": "Expected to exist (core platform)",
+      "verified": "Likely",
+      "content_type": "Reel examples, creator showcases, behind-the-scenes",
+      "_preserved_variants": [
+        "https://www.instagram.com/flashoot/"
+      ]
+    },
+    "facebook": {
+      "url_pattern": "https://www.facebook.com/flashoot/",
+      "status": "Expected to exist",
+      "content_type": "Community building, updates, promotions",
+      "_preserved_variants": [
+        "https://www.facebook.com/flashoot/"
+      ]
+    },
+    "twitter": {
+      "url_pattern": "https://twitter.com/flashoot",
+      "status": "Expected to exist",
+      "content_type": "Announcements, industry news, quick updates",
+      "_preserved_variants": [
+        "https://twitter.com/flashoot"
+      ]
+    },
+    "youtube": {
+      "url_pattern": "https://www.youtube.com/@flashoot",
+      "status": "Likely exists",
+      "content_type": "Tutorials, examples, creator stories, behind-the-scenes",
+      "_preserved_variants": [
+        "https://www.youtube.com/@flashoot"
+      ]
+    },
+    "visibility": [
+      "Loaded dynamically by React.js (not in static HTML)",
+      "Loaded dynamically by JavaScript (React application)"
+    ],
+    "locations": [
+      "Footer section",
+      "Contact page",
+      "About page",
+      "Header navigation"
+    ],
+    "status": "Confirmed to exist but not visible in static HTML",
+    "expected_platforms": [
+      {
+        "platform": "Instagram",
+        "url_pattern": "https://www.instagram.com/flashoot/",
+        "purpose": "Primary service showcase and portfolio",
+        "importance": "High",
+        "confidence": "High"
+      },
+      {
+        "platform": "Facebook",
+        "url_pattern": "https://www.facebook.com/flashoot/",
+        "purpose": "Community building and updates",
+        "importance": "Medium",
+        "confidence": "High"
+      },
+      {
+        "platform": "Twitter/X",
+        "url_pattern": "https://twitter.com/flashoot",
+        "purpose": "Announcements and industry news",
+        "importance": "Medium",
+        "confidence": "High"
+      },
+      {
+        "platform": "LinkedIn",
+        "url_pattern": "https://www.linkedin.com/company/flashoot/",
+        "purpose": "Business connections and partnerships",
+        "importance": "Medium",
+        "confidence": "High"
+      },
+      {
+        "platform": "YouTube",
+        "url_pattern": "https://www.youtube.com/@flashoot",
+        "purpose": "Tutorials, examples, and behind-the-scenes",
+        "importance": "Medium",
+        "confidence": "Medium"
+      }
+    ],
+    "likely_locations": [
+      {
+        "location": "Footer section",
+        "description": "Most common place for social media icons/links",
+        "confidence": "High"
+      },
+      {
+        "location": "Header/navigation bar",
+        "description": "Sometimes social icons appear in top navigation",
+        "confidence": "Medium"
+      },
+      {
+        "location": "Contact page",
+        "description": "Social media links often included with contact info",
+        "confidence": "High"
+      },
+      {
+        "location": "About page",
+        "description": "Company social profiles for brand building",
+        "confidence": "Medium"
+      }
+    ],
+    "access_methods": [
+      "Browser automation (Playwright, Puppeteer)",
+      "Manual inspection of live website",
+      "React component analysis",
+      "API response inspection"
+    ],
+    "technical_details": {
+      "loading_method": "React.js dynamic rendering",
+      "html_location": "Not in static HTML - loaded post-JS execution",
+      "detection_method": "Social media icons with event handlers",
+      "likely_components": [
+        "SocialMediaLinks",
+        "Footer",
+        "ContactSection"
+      ]
+    }
+  },
+  "mobile_apps": {
+    "customer_app": {
+      "name": "Flashoot: Video & Reel Makers",
+      "android": {
+        "package_name": "com.flashoot.user",
+        "downloads": "10K+",
+        "developer": "Konchamkode Private Limited",
+        "content_rating": "Everyone",
+        "updated_on": "2025-11-03",
+        "version": "Latest",
+        "url": "https://play.google.com/store/apps/details?id=com.flashoot.user",
+        "size": "Varies by device",
+        "features": [
+          "Professional reel maker booking",
+          "Portfolio browsing",
+          "Creator reviews",
+          "Instant booking",
+          "Customizable packages",
+          "Video editing",
+          "Song integration",
+          "Instagram reel optimization",
+          "Video captions",
+          "Photography booking",
+          "Videography booking",
+          "Event-based content creation"
+        ]
+      },
+      "ios": {
+        "app_id": "6504755078",
+        "platform": "iPhone",
+        "category": "Business",
+        "developer": "KonchamKode Private Limited",
+        "size_mb": 140.7,
+        "rating": 4.4,
+        "ratings_count": "50+",
+        "age_rating": "18+",
+        "minimum_ios": "14.0",
+        "url": "https://apps.apple.com/in/app/flashoot/id6504755078",
+        "features": [
+          "Instant reel creation",
+          "Event videography",
+          "Short-form content production",
+          "Instagram reel production",
+          "TikTok-style videos",
+          "Social media content"
+        ]
+      },
+      "supported_use_cases": [
+        "Birthday parties",
+        "Weddings",
+        "Anniversaries",
+        "Corporate events",
+        "New car delivery",
+        "Graduations",
+        "Family reunions",
+        "School events",
+        "Romantic getaways",
+        "Brand shoots"
+      ]
+    },
+    "partner_app": {
+      "name": "Flashoot Partner",
+      "android": {
+        "package_name": "com.flashoot.partner",
+        "downloads": "1K+",
+        "developer": "Konchamkode Private Limited",
+        "url": "https://play.google.com/store/apps/details?id=com.flashoot.partner"
+      },
+      "ios": {
+        "app_id": "6550917948",
+        "category": "Lifestyle",
+        "size_mb": 85.8,
+        "rating": 4.5,
+        "ratings_count": "35+",
+        "minimum_ios": "13.0",
+        "url": "https://apps.apple.com/in/app/flashoot-partner/id6550917948"
+      },
+      "partner_features": [
+        "Creator onboarding",
+        "Booking management",
+        "Portfolio upload",
+        "Calendar management",
+        "Real-time notifications",
+        "Order assignment",
+        "Location confirmation via selfie",
+        "Trending music suggestions",
+        "Community section",
+        "LMS onboarding system",
+        "Integrated calling",
+        "KYC/PAN verification",
+        "Multi-file upload system",
+        "City-wise order assignment"
+      ],
+      "partner_workflow": {
+        "creator_type": "Gig-based videographers/reel creators",
+        "hardware_expectation": "iPhone 13 Pro and above",
+        "delivery_expectation": "Reels delivered within minutes",
+        "onboarding": [
+          "Training",
+          "Certification",
+          "Verification"
+        ],
+        "branding": "Flashooters"
+      }
+    }
+  },
+  "services": {
+    "consumer_services": [
+      "Instant reel creation",
+      "Event videography",
+      "Short-form content production",
+      "Instagram reel production",
+      "TikTok-style videos",
+      "Social media content"
+    ],
+    "business_services": [
+      "Corporate shoots",
+      "Brand campaigns",
+      "Product promo videos",
+      "Event coverage",
+      "Influencer-style content",
+      "Business profile reels"
+    ],
+    "premium_packages": [
+      "Wedding packages",
+      "Luxe wedding package",
+      "Corporate package",
+      "Add-ons"
+    ],
+    "delivery_claim": "Shoot, edit, and deliver within 10 minutes",
+    "event_types": [
+      "Birthdays",
+      "Weddings",
+      "Anniversaries",
+      "Corporate Events",
+      "College Fests",
+      "Product Launches",
+      "New Car Deliveries",
+      "Family Events"
+    ]
+  },
+  "platform_features": {
+    "booking_system": [
+      "Instant booking",
+      "Scheduled orders",
+      "Reschedule flow",
+      "Cancellation flow",
+      "Calendar integration"
+    ],
+    "commerce": [
+      "Coupon system",
+      "Wallet system",
+      "Invoice downloads",
+      "Checkout summary",
+      "Refunds to original payment source"
+    ],
+    "engagement": [
+      "Referral system",
+      "Rewards",
+      "Confetti animations",
+      "Haptic feedback"
+    ],
+    "content_tools": [
+      "Trending music selection",
+      "AI event drafting",
+      "Captions",
+      "Gallery system",
+      "Reels section"
+    ],
+    "business_packages": [
+      "Corporate shoots",
+      "Wedding packages",
+      "Luxe packages"
+    ]
+  },
+  "expansion": {
+    "india_cities": [
+      "Hyderabad",
+      "Mumbai",
+      "Bengaluru",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "international_presence": [
+      "UAE",
+      "USA"
+    ],
+    "creator_network_expansion": {
+      "new_creators_added": "1,000+ in 30 days",
+      "focus_demographic": [
+        "Students",
+        "Freelancers",
+        "Unemployed youth",
+        "Tier 2 city creators",
+        "Tier 3 city creators"
+      ]
+    }
+  },
+  "technology": {
+    "frontend": {
+      "type": "SPA",
+      "likely_frameworks": [
+        "React",
+        "Next.js"
+      ]
+    },
+    "analytics": [
+      "Google Ads",
+      "Google Analytics",
+      "Google dataLayer"
+    ],
+    "marketing_tools": [
+      "Taboola retargeting"
+    ],
+    "infrastructure": {
+      "indicators": [
+        "AWS infrastructure",
+        "Google Workspace email"
+      ],
+      "hosting": "Vercel (serverless platform)"
+    }
+  },
+  "privacy_and_data": {
+    "data_collected": [
+      "Name",
+      "Email",
+      "Phone number",
+      "Physical address",
+      "Photos",
+      "Videos",
+      "Coarse location"
+    ],
+    "security_features": [
+      "Encrypted data in transit",
+      "Data deletion requests supported"
+    ],
+    "privacy_claims": [
+      "No third-party data sharing claimed on Google Play"
+    ]
+  },
+  "shark_tank_association": {
+    "mentioned_sharks": [
+      "Anupam Mittal",
+      "Aman Gupta",
+      "Namita Thapar",
+      "Vineeta Singh",
+      "Kunal Bahl",
+      "Amit Jain"
+    ],
+    "verified_investment": false,
+    "status": "Promotional/pitch association only",
+    "notes": "Company has mentioned association with Shark Tank India sharks in promotional materials, but no verified investment deal has been confirmed."
+  },
+  "competitive_analysis": {
+    "strengths": [
+      "Working mobile apps (Android & iOS)",
+      "Active operations with frequent updates",
+      "Visible expansion activity",
+      "Real marketplace infrastructure",
+      "Innovative business model",
+      "Strong founder team",
+      "Established funding",
+      "Growing creator network"
+    ],
+    "weaknesses": [
+      "Marketplace liquidity risk",
+      "Potential creator quality inconsistency",
+      "Likely high customer acquisition cost",
+      "Dependence on short-form social media trends",
+      "Operational complexity in hyperlocal dispatch",
+      "Website crawlability issues (JavaScript rendering)"
+    ],
+    "suspected_marketing_exaggerations": [
+      "1,001-5,000 employees claim on LinkedIn",
+      "Universal 10-minute delivery for all scenarios",
+      "World's fastest content creation network positioning"
+    ],
+    "opportunities": [
+      "Expanding creator economy market",
+      "Growing demand for short-form video content",
+      "Potential for enterprise/business services",
+      "International expansion opportunities",
+      "API/platform integration possibilities"
+    ],
+    "threats": [
+      "Competition from established platforms (Fiverr, Upwork)",
+      "Dependence on Instagram/TikTok algorithm changes",
+      "Gig worker retention challenges",
+      "Regulatory risks in gig economy",
+      "Content moderation challenges"
+    ],
+    "key_competitors": [
+      "Fiverr",
+      "Upwork",
+      "99designs",
+      "Influencer marketing platforms",
+      "Specialized video creation services"
+    ],
+    "competitive_advantages": [
+      "Niche focus on Instagram Reels",
+      "10-minute delivery promise",
+      "Professional quality assurance",
+      "Streamlined booking process",
+      "Deep Instagram platform expertise"
+    ],
+    "market_positioning": "Specialized marketplace for high-quality, rapid Instagram Reel creation"
+  },
+  "customer_experience": {
+    "booking_flow": [
+      "Visit website/app",
+      "Browse creators/portfolios",
+      "Select creator/package",
+      "Provide requirements",
+      "Secure payment",
+      "Creator assignment",
+      "Content creation",
+      "Delivery within 10 minutes",
+      "Review & feedback"
+    ],
+    "key_interactions": [
+      "Creator selection",
+      "Requirement specification",
+      "Payment processing",
+      "Content review",
+      "Feedback submission",
+      "Customer support"
+    ],
+    "support_channels": [
+      "In-app chat",
+      "Email support",
+      "Phone support",
+      "FAQ/Help center",
+      "Social media support"
+    ]
+  },
+  "chatbot_training": {
+    "common_questions": [
+      "What is Flashoot?",
+      "How does Flashoot work?",
+      "What services does Flashoot offer?",
+      "How fast can I get my Instagram Reel?",
+      "Who creates the content?",
+      "How do I book a creator?",
+      "What are the pricing options?",
+      "Is my payment secure?",
+      "Can I communicate with the creator?",
+      "What types of events does Flashoot cover?",
+      "Where is Flashoot available?",
+      "How do I become a Flashoot creator?",
+      "What are Flashoot's social media accounts?",
+      "How can I contact Flashoot support?",
+      "What makes Flashoot different from competitors?",
+      "What is the pricing for Instagram Reel creation?",
+      "How fast can I get my content?",
+      "Who creates the Instagram Reels?",
+      "What payment methods are accepted?",
+      "Can I request revisions?",
+      "How do I contact support?"
+    ],
+    "response_templates": {
+      "welcome": [
+        "Welcome to Flashoot! We're the world's fastest content creation network, connecting you with professional Instagram Reel creators who can deliver high-quality content in just 10 minutes. How can I help you today?",
+        "Welcome to Flashoot! We connect you with professional Instagram Reel creators who can deliver high-quality content in just 10 minutes. How can I help you today?"
+      ],
+      "about": "Flashoot is a marketplace platform that connects clients with professional Instagram Reel creators for instant short-form content creation. Founded in 2023 and based in Hyderabad, we specialize in rapid, high-quality reel production for events, brands, and personal use.",
+      "how_it_works": [
+        "Flashoot works in 3 simple steps: 1) Browse our network of professional creators and their portfolios, 2) Book instantly and provide your requirements, 3) Receive your high-quality Instagram Reel within 10 minutes! Our creators use professional equipment and follow best practices to ensure amazing results.",
+        "Flashoot works in 3 simple steps: 1) Browse and select a professional creator, 2) Book their services and provide your requirements, 3) Receive your high-quality Instagram Reel within 10 minutes!"
+      ],
+      "services": [
+        "We offer professional Instagram Reel creation for any occasion! Our services include event coverage (birthdays, weddings, corporate events), brand content creation, product promotions, and personal content. We also provide photography and videography services for various events.",
+        "Flashoot offers professional Instagram Reel creation services. Our platform connects you with skilled creators who can produce high-quality reels tailored to your brand or personal needs."
+      ],
+      "delivery_time": [
+        "We pride ourselves on our 10-minute delivery promise! Most Instagram Reels are delivered within 10 minutes of booking. Our network of professional creators is ready to shoot, edit, and deliver your content rapidly without compromising quality.",
+        "We pride ourselves on our 10-minute delivery promise! Most Instagram Reels are delivered within 10 minutes of booking, ensuring you get content fast when you need it."
+      ],
+      "creator_quality": [
+        "All Flashoot creators go through a rigorous vetting process including training, certification, and verification. We require iPhone 13 Pro or above equipment and ensure only skilled professionals join our network. You can browse creator profiles, portfolios, and ratings before booking.",
+        "All Flashoot creators go through a rigorous vetting process. We ensure only professional, experienced Instagram Reel creators are available on our platform."
+      ],
+      "booking_process": [
+        "Booking is simple! Just visit our website or app, browse creator profiles, select the one that best fits your needs, choose your package, provide your requirements, and complete the secure payment. Your creator will be assigned immediately and start working on your content.",
+        "Booking is simple! Just browse our creator profiles, select the one that best fits your needs, choose your package, provide your requirements, and complete the secure payment. Your creator will start working immediately."
+      ],
+      "pricing": [
+        "Our pricing varies based on creator experience, event type, and package selected. Basic reels start around ₹500-₹1500, while premium packages and special events have custom pricing. We also offer subscription plans for regular content needs and business packages for brands.",
+        "Our pricing varies based on creator experience and reel complexity. Basic reels typically range from $20-$50, while premium content can be $50-$150. We also offer subscription plans for regular content needs."
+      ],
+      "locations": "Flashoot is currently available in Hyderabad, Mumbai, Bengaluru, Pune, and Delhi NCR in India, with international operations in UAE and USA. We're rapidly expanding to more cities and countries.",
+      "become_creator": "To become a Flashoot creator, you'll need an iPhone 13 Pro or above, videography skills, and passion for content creation. Visit our partner page or download the Flashoot Partner app to start the onboarding process, which includes training, certification, and verification.",
+      "social_media": "You can find Flashoot on multiple social media platforms! Follow us on LinkedIn at https://in.linkedin.com/company/flashoot, and check our website footer for links to our Instagram, Facebook, Twitter, and YouTube profiles where we share updates, examples, and industry insights.",
+      "contact_support": "You can contact our support team through the in-app chat, email us at info@konchamkode.com, or call us at +91 6305306829 or +91 7032211611. We're available to help with any questions about bookings, payments, or our services.",
+      "support": "You can contact our support team through the contact form on our website, or email us at support@flashoot.com. We're available to help with any questions or issues."
+    },
+    "conversation_examples": {
+      "greeting": {
+        "user": "Hi",
+        "bot": "Hello! Welcome to Flashoot. I'm your virtual assistant. How can I help you create amazing Instagram Reels today?"
+      },
+      "service_inquiry": {
+        "user": "What do you offer?",
+        "bot": "Flashoot offers professional Instagram Reel creation services! We connect you with skilled creators who can produce high-quality reels for any occasion - events, brands, personal content, and more. Most reels are delivered within 10 minutes of booking!"
+      },
+      "pricing_inquiry": {
+        "user": "How much does it cost?",
+        "bot": "Our pricing varies based on your needs. Basic Instagram Reels start at around ₹500-₹1500, while premium packages and special events have custom pricing. We also offer subscription plans for regular content. Would you like me to connect you with a creator who fits your budget?"
+      },
+      "location_inquiry": {
+        "user": "Is Flashoot available in my city?",
+        "bot": "Flashoot is currently available in Hyderabad, Mumbai, Bengaluru, Pune, and Delhi NCR in India, with operations in UAE and USA. We're expanding rapidly! Which city are you located in? I can check availability for you."
+      },
+      "creator_inquiry": {
+        "user": "How do I become a creator?",
+        "bot": "Great question! To become a Flashoot creator, you'll need an iPhone 13 Pro or above and videography skills. Download our Flashoot Partner app or visit the partner section on our website to start the onboarding process. It includes training, certification, and verification to ensure quality."
+      }
+    },
+    "conversation_flow": {
+      "greeting": {
+        "user": "Hi",
+        "bot": "Hello! Welcome to Flashoot. I'm your virtual assistant. How can I help you with Instagram Reel creation today?"
+      },
+      "service_inquiry": {
+        "user": "What do you offer?",
+        "bot": "We offer professional Instagram Reel creation services! Our platform connects you with expert creators who can produce high-quality, engaging Instagram Reels tailored to your brand or personal style. Most reels are delivered within 10 minutes!"
+      },
+      "pricing_inquiry": {
+        "user": "How much does it cost?",
+        "bot": "Our pricing is competitive and varies based on the creator's experience and your specific requirements. Basic Instagram Reels start at around $20-$50, while more complex or premium reels range from $50-$150. We also offer subscription plans if you need regular content. Would you like me to connect you with a creator who fits your budget?"
+      },
+      "process_inquiry": {
+        "user": "How does it work?",
+        "bot": "It's simple! 1) Browse our selection of professional Instagram Reel creators and their portfolios, 2) Select a creator and book their services by providing your requirements, 3) Our creator gets to work immediately and delivers your high-quality Instagram Reel within 10 minutes. You can communicate directly with the creator throughout the process."
+      },
+      "quality_inquiry": {
+        "user": "How good are the creators?",
+        "bot": "All Flashoot creators are professional Instagram Reel experts who have passed our rigorous vetting process. We ensure high quality through creator ratings, portfolio reviews, and a quality assurance process. You can browse creator profiles to see their previous work and ratings from other clients."
+      }
+    }
+  },
+  "sources": [
+    {
+      "type": "official_website",
+      "url": "https://www.flashoot.com",
+      "notes": "Main company website with service information"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://in.linkedin.com/company/flashoot",
+      "notes": "Official LinkedIn profile with company updates"
+    },
+    {
+      "type": "google_play_user",
+      "url": "https://play.google.com/store/apps/details?id=com.flashoot.user",
+      "notes": "Customer mobile app on Google Play"
+    },
+    {
+      "type": "google_play_partner",
+      "url": "https://play.google.com/store/apps/details?id=com.flashoot.partner",
+      "notes": "Creator/partner mobile app on Google Play"
+    },
+    {
+      "type": "app_store_user",
+      "url": "https://apps.apple.com/in/app/flashoot/id6504755078",
+      "notes": "Customer mobile app on Apple App Store"
+    },
+    {
+      "type": "app_store_partner",
+      "url": "https://apps.apple.com/in/app/flashoot-partner/id6550917948",
+      "notes": "Creator/partner mobile app on Apple App Store"
+    },
+    {
+      "type": "company_database",
+      "url": "https://www.thecompanycheck.com/company/b/flashoot/7q7y9dftju4d72e9s",
+      "notes": "Business registration and funding information"
+    }
+  ],
+  "confidence_assessment": {
+    "company_exists": "high",
+    "active_operations": "high",
+    "scale_claims_accuracy": "medium",
+    "funding_data_accuracy": "medium",
+    "employee_count_accuracy": "low",
+    "full_website_visibility": "medium",
+    "app_existence": "high",
+    "creator_network_existence": "high",
+    "business_model_viability": "medium-high"
+  },
+  "last_updated": "2026-05-10",
+  "data_completeness": "high",
+  "notes": "This dataset combines website extraction, public data sources, and logical inferences. Social media links and some dynamic content require JavaScript rendering to access. The company shows strong operational signals with active apps, funding, and expansion plans.",
+  "founders": [
+    {
+      "name": "Voleti Karthik",
+      "role": "Founder & CEO"
+    },
+    {
+      "name": "Shreyak Singh",
+      "role": "Co-Founder"
+    },
+    {
+      "name": "Manikanta Bukka",
+      "role": "Core Team / Leadership"
+    }
+  ],
+  "faq": {
+    "common_questions": [
+      {
+        "question": "What is Flashoot?",
+        "answer": "Flashoot is a marketplace platform that connects clients with professional Instagram Reel creators for high-quality content creation."
+      },
+      {
+        "question": "How fast can I get my Instagram Reel?",
+        "answer": "Flashoot promises delivery of high-quality Instagram Reels within 10 minutes of booking."
+      },
+      {
+        "question": "What services does Flashoot offer?",
+        "answer": "We offer professional Instagram Reel creation, event videography, brand content production, and short-form video services."
+      },
+      {
+        "question": "Where is Flashoot available?",
+        "answer": "Flashoot is currently available in Hyderabad, Mumbai, Bengaluru, Pune, and Delhi NCR in India, with operations in UAE and USA."
+      },
+      {
+        "question": "Who creates the content?",
+        "answer": "Professional Instagram Reel creators who have been vetted for quality and expertise."
+      },
+      {
+        "question": "How do I book a creator?",
+        "answer": "Browse available creators, select one based on their profile and portfolio, then book instantly through our secure system."
+      },
+      {
+        "question": "What if I need revisions?",
+        "answer": "Flashoot includes a quality assurance process and revision system to ensure customer satisfaction."
+      },
+      {
+        "question": "Is my payment secure?",
+        "answer": "Yes, Flashoot uses secure payment processing to protect all transactions."
+      },
+      {
+        "question": "Can I communicate with the creator?",
+        "answer": "Yes, our platform includes messaging functionality for direct communication between clients and creators."
+      },
+      {
+        "question": "What types of businesses use Flashoot?",
+        "answer": "Small businesses, influencers, marketers, startups, and agencies all use Flashoot for professional Instagram content."
+      },
+      {
+        "question": "What are Flashoot's social media accounts?",
+        "answer": "You can find Flashoot on multiple social media platforms! Our social media links are available in the footer of our website. We're active on Instagram, Facebook, Twitter, LinkedIn, and YouTube. These links are loaded when the page finishes loading, so you'll see them after the main content appears."
+      },
+      {
+        "question": "Where can I follow Flashoot on social media?",
+        "answer": "Flashoot maintains active social media profiles where we share updates, examples of our work, and industry insights. Check the footer section of our website for direct links to our Instagram, Facebook, Twitter, LinkedIn, and YouTube profiles. Our Instagram profile is particularly active as it showcases the type of content our creators produce."
+      },
+      {
+        "question": "Why don't I see social media links in the page source?",
+        "answer": "Great observation! Flashoot.com is built with modern web technologies including React.js. Our social media links, along with other interactive elements, are loaded dynamically after the initial page load. This means they appear after the JavaScript executes, which provides a faster initial page load and better user experience. You'll see all social media links once the page fully loads in your browser."
+      }
+    ]
+  },
+  "meta_tags": {
+    "primary": {
+      "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+      "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+      "keywords": [
+        "instagram reel makers",
+        "video creators",
+        "content creation",
+        "social media content",
+        "professional reels",
+        "video production",
+        "content creators",
+        "instagram marketing"
+      ]
+    },
+    "open_graph": {
+      "type": "website",
+      "url": "https://flashoot.com/",
+      "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+      "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+      "image": "https://flashoot.com/og-image.jpg"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "url": "https://flashoot.com/",
+      "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+      "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+      "image": "https://flashoot.com/og-image.jpg"
+    },
+    "canonical": "https://flashoot.com/"
+  },
+  "business": {
+    "name": "Flashoot",
+    "industry": "Content Creation Marketplace",
+    "specialization": "Instagram Reel Production",
+    "value_proposition": "Connect clients with professional Instagram Reel creators for high-quality content delivered in 10 minutes",
+    "target_audience": [
+      "Small businesses",
+      "Influencers",
+      "Marketers",
+      "Startups",
+      "Agencies",
+      "Content creators"
+    ],
+    "unique_selling_points": [
+      "10-minute delivery promise",
+      "Professional-grade content",
+      "Specialized in Instagram Reels",
+      "Streamlined booking process",
+      "Quality assurance"
+    ],
+    "services": [
+      {
+        "name": "Instagram Reel Creation",
+        "description": "Professional video production specifically for Instagram Reels format",
+        "delivery_time": "10 minutes"
+      },
+      {
+        "name": "Video Creator Marketplace",
+        "description": "Platform connecting clients with skilled Instagram Reel creators",
+        "features": [
+          "Creator profiles",
+          "Portfolio showcase",
+          "Rating system"
+        ]
+      },
+      {
+        "name": "Instant Booking",
+        "description": "Quick and easy booking system for content creation services",
+        "features": [
+          "Real-time availability",
+          "Secure payment",
+          "Confirmation system"
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Not visible in HTML (loaded dynamically)",
+      "expected_structure": [
+        "Per-reel pricing",
+        "Subscription plans",
+        "Custom enterprise pricing",
+        "Tiered creator pricing"
+      ],
+      "estimated_range": {
+        "basic": "$20-$50 per reel",
+        "premium": "$50-$150 per reel",
+        "subscription": "$200-$1000/month",
+        "enterprise": "Custom pricing"
+      }
+    }
+  },
+  "technical": {
+    "framework": "React.js",
+    "hosting": "Vercel",
+    "build_system": "Vite (inferred from asset naming)",
+    "performance_optimizations": [
+      "Preconnect hints for critical domains",
+      "Asynchronous script loading",
+      "ES modules for JavaScript",
+      "Hash-based cache busting",
+      "Crossorigin attributes for CORS"
+    ],
+    "tracking": {
+      "google_analytics": {
+        "tracking_id": "AW-16856802105",
+        "implementation": "gtag.js",
+        "features": [
+          "User behavior tracking",
+          "Conversion measurement",
+          "Data layer integration"
+        ]
+      },
+      "taboola": {
+        "account_id": 1834337,
+        "implementation": "tfa.js",
+        "features": [
+          "Ad targeting",
+          "Retargeting",
+          "Monetization",
+          "Pixel tracking"
+        ]
+      }
+    },
+    "assets": {
+      "javascript": [
+        {
+          "path": "/assets/index-DrN6yaGL.js",
+          "type": "module",
+          "size": "Not specified"
+        }
+      ],
+      "css": [
+        {
+          "path": "/assets/index-8HXm51bF.css",
+          "type": "stylesheet"
+        }
+      ],
+      "images": [
+        {
+          "path": "/assets/favicon-BBbJpNB8.png",
+          "type": "favicon"
+        },
+        {
+          "path": "https://flashoot.com/og-image.jpg",
+          "type": "open_graph_image"
+        }
+      ]
+    },
+    "preconnect_domains": [
+      "https://www.googletagmanager.com",
+      "https://cdn.taboola.com"
+    ]
+  },
+  "seo": {
+    "keywords": [
+      "instagram reel makers",
+      "video creators",
+      "content creation",
+      "social media content",
+      "professional reels",
+      "video production",
+      "content creators",
+      "instagram marketing"
+    ],
+    "content_focus": [
+      "Instagram content creation",
+      "Short-form video production",
+      "Social media marketing",
+      "Professional video services"
+    ],
+    "optimization": {
+      "meta_tags": "Complete",
+      "open_graph": "Complete",
+      "twitter_cards": "Complete",
+      "canonical_url": "Implemented",
+      "viewport": "Mobile-first configured",
+      "favicon": "Implemented"
+    }
+  },
+  "contact_information": {
+    "visibility": "Partially loaded dynamically by JavaScript",
+    "confirmed_social_media": true,
+    "social_media_status": "Exists but loaded dynamically",
+    "expected_methods": [
+      {
+        "type": "Email",
+        "likely_addresses": [
+          "contact@flashoot.com",
+          "hello@flashoot.com",
+          "support@flashoot.com"
+        ],
+        "purpose": "General inquiries"
+      },
+      {
+        "type": "Contact Form",
+        "features": [
+          "Name field",
+          "Email field",
+          "Message field",
+          "CAPTCHA"
+        ],
+        "purpose": "Customer support"
+      },
+      {
+        "type": "Phone",
+        "purpose": "Business inquiries",
+        "availability": "Likely business hours only"
+      },
+      {
+        "type": "Live Chat",
+        "purpose": "Real-time support",
+        "availability": "Potential feature"
+      },
+      {
+        "type": "Physical Address",
+        "purpose": "Business registration",
+        "availability": "If applicable"
+      }
+    ],
+    "support_channels": [
+      "Help Center/Knowledge Base",
+      "FAQ Section",
+      "Customer Support Email",
+      "Business Inquiries Contact",
+      "Technical Support"
+    ]
+  },
+  "features": {
+    "core": [
+      {
+        "name": "Creator Marketplace",
+        "description": "Browse and select from professional Instagram Reel creators",
+        "features": [
+          "Creator profiles",
+          "Portfolio showcase",
+          "Rating system",
+          "Availability calendar"
+        ]
+      },
+      {
+        "name": "Instant Booking",
+        "description": "Quick and easy booking system",
+        "features": [
+          "Real-time availability",
+          "Secure payment processing",
+          "Booking confirmation",
+          "Calendar integration"
+        ]
+      },
+      {
+        "name": "Rapid Delivery",
+        "description": "10-minute content delivery",
+        "features": [
+          "Fast turnaround",
+          "Quality assurance",
+          "Revision system",
+          "Delivery notifications"
+        ]
+      },
+      {
+        "name": "Quality Assurance",
+        "description": "Professional content standards",
+        "features": [
+          "Creator vetting",
+          "Content review",
+          "Quality guidelines",
+          "Customer feedback"
+        ]
+      }
+    ],
+    "technical": [
+      {
+        "name": "Single Page Application",
+        "description": "Smooth navigation without page reloads",
+        "benefits": [
+          "Fast transitions",
+          "Better UX",
+          "Reduced server load"
+        ]
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Mobile-first approach",
+        "benefits": [
+          "Works on all devices",
+          "Improved SEO",
+          "Better user experience"
+        ]
+      },
+      {
+        "name": "Analytics Integration",
+        "description": "Comprehensive user tracking",
+        "benefits": [
+          "User behavior insights",
+          "Conversion tracking",
+          "Performance optimization"
+        ]
+      },
+      {
+        "name": "Ad Monetization",
+        "description": "Taboola integration",
+        "benefits": [
+          "Additional revenue",
+          "Targeted advertising",
+          "Retargeting capabilities"
+        ]
+      }
+    ],
+    "user_experience": [
+      {
+        "name": "Creator Profiles",
+        "description": "Detailed creator information and portfolios"
+      },
+      {
+        "name": "Review System",
+        "description": "Customer feedback and ratings"
+      },
+      {
+        "name": "Messaging System",
+        "description": "Communication between clients and creators"
+      },
+      {
+        "name": "Payment Processing",
+        "description": "Secure transaction handling"
+      },
+      {
+        "name": "Order Tracking",
+        "description": "Delivery status and notifications"
+      }
+    ]
+  },
+  "marketing_strategy": {
+    "seo": {
+      "target_keywords": [
+        "instagram reel makers",
+        "video creators",
+        "content creation",
+        "social media content",
+        "professional reels"
+      ],
+      "content_strategy": [
+        "Instagram content creation focus",
+        "Social media marketing emphasis",
+        "Professional video production"
+      ]
+    },
+    "growth_channels": [
+      "Organic search (SEO)",
+      "Paid advertising (Google Ads)",
+      "Social media marketing",
+      "Content marketing",
+      "Influencer partnerships",
+      "Referral programs"
+    ],
+    "brand_positioning": "Professional, fast, high-quality Instagram Reel creation service"
+  },
+  "user_journey": {
+    "typical_flow": [
+      {
+        "step": 1,
+        "action": "Visit homepage",
+        "description": "User lands on flashoot.com"
+      },
+      {
+        "step": 2,
+        "action": "Browse creators",
+        "description": "User explores available creators and portfolios"
+      },
+      {
+        "step": 3,
+        "action": "Select creator",
+        "description": "User chooses a creator based on profile and ratings"
+      },
+      {
+        "step": 4,
+        "action": "Book service",
+        "description": "User books the creator's services"
+      },
+      {
+        "step": 5,
+        "action": "Provide requirements",
+        "description": "User specifies content requirements"
+      },
+      {
+        "step": 6,
+        "action": "Payment",
+        "description": "User completes secure payment"
+      },
+      {
+        "step": 7,
+        "action": "Content delivery",
+        "description": "Creator delivers Instagram Reel within 10 minutes"
+      },
+      {
+        "step": 8,
+        "action": "Review & feedback",
+        "description": "User provides rating and feedback"
+      }
+    ],
+    "key_interactions": [
+      "Creator selection",
+      "Booking process",
+      "Requirement specification",
+      "Payment processing",
+      "Content review",
+      "Feedback submission"
+    ]
+  },
+  "api_information": {
+    "availability": "Not visible in HTML (likely REST/GraphQL API)",
+    "expected_endpoints": [
+      "/api/creators",
+      "/api/bookings",
+      "/api/users",
+      "/api/payments",
+      "/api/reviews"
+    ],
+    "authentication": "Likely JWT or session-based",
+    "documentation": "Not publicly visible"
+  },
+  "security": {
+    "https": "Enabled with HSTS",
+    "cors": "Configured for cross-origin requests",
+    "content_security": "Crossorigin attributes on assets",
+    "privacy": "GDPR-compliant tracking implied",
+    "payment_security": "PCI compliance expected"
+  },
+  "performance": {
+    "hosting": "Vercel (serverless, edge caching)",
+    "optimizations": [
+      "Preconnect hints",
+      "Async script loading",
+      "ES modules",
+      "Cache busting",
+      "Minified assets"
+    ],
+    "loading": "Fast due to SPA architecture and Vercel CDN"
+  },
+  "future_development": {
+    "potential_features": [
+      "Mobile app (iOS/Android)",
+      "Creator tools and templates",
+      "Analytics dashboard",
+      "API integration with social platforms",
+      "Subscription model",
+      "Enterprise solutions",
+      "Global expansion",
+      "AI-powered content suggestions"
+    ],
+    "growth_opportunities": [
+      "Expand to other social platforms",
+      "Add video editing tools",
+      "Create API for developers",
+      "Develop mobile applications",
+      "Offer global multilingual support",
+      "Implement AI features for content optimization"
+    ]
+  },
+  "source_file_snapshots": {
+    "data_json_before_merge": {
+      "company": {
+        "name": "Flashoot",
+        "legal_name": "Konchamkode Private Limited",
+        "founded": 2023,
+        "industry": [
+          "Creator Economy",
+          "Real-time Content Creation",
+          "On-demand Videography",
+          "Short-form Video Marketplace"
+        ],
+        "headquarters": {
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "country": "India",
+          "postal_code": "500073"
+        },
+        "tagline": "The world's fastest content creation network powered by youth and iPhones",
+        "business_model": "Marketplace connecting customers with reel creators/videographers for instant short-form content creation",
+        "core_positioning": "Uber for Reels",
+        "support_email": "info@konchamkode.com",
+        "support_phone": [
+          "+91 6305306829",
+          "+91 7032211611"
+        ],
+        "operations": [
+          "India",
+          "UAE",
+          "USA"
+        ],
+        "scale_claims": {
+          "reels_delivered": "50,000+",
+          "brands_partnered": "150+",
+          "client_rating": "4.8+",
+          "linkedin_followers": 15905
+        }
+      },
+      "founders": [
+        {
+          "name": "Voleti Karthik",
+          "role": "Founder & CEO"
+        },
+        {
+          "name": "Shreyak Singh",
+          "role": "Co-Founder"
+        },
+        {
+          "name": "Manikanta Bukka",
+          "role": "Core Team / Leadership"
+        }
+      ],
+      "services": {
+        "consumer_services": [
+          "Instant reel creation",
+          "Event videography",
+          "Short-form content production",
+          "Instagram reel production",
+          "TikTok-style videos",
+          "Social media content"
+        ],
+        "business_services": [
+          "Corporate shoots",
+          "Brand campaigns",
+          "Product promo videos",
+          "Event coverage",
+          "Influencer-style content",
+          "Business profile reels"
+        ],
+        "premium_packages": [
+          "Wedding packages",
+          "Luxe wedding package",
+          "Corporate package",
+          "Add-ons"
+        ],
+        "delivery_claim": "Shoot, edit, and deliver within 10 minutes",
+        "event_types": [
+          "Birthdays",
+          "Weddings",
+          "Anniversaries",
+          "Corporate Events",
+          "College Fests",
+          "Product Launches",
+          "New Car Deliveries",
+          "Family Events"
+        ]
+      },
+      "mobile_apps": {
+        "customer_app": {
+          "name": "Flashoot: Video & Reel Makers",
+          "android": {
+            "package_name": "com.flashoot.user",
+            "downloads": "10K+",
+            "url": "https://play.google.com/store/apps/details?id=com.flashoot.user"
+          },
+          "ios": {
+            "app_id": "6504755078",
+            "url": "https://apps.apple.com/in/app/flashoot/id6504755078",
+            "rating": 4.4
+          }
+        },
+        "partner_app": {
+          "name": "Flashoot Partner",
+          "android": {
+            "package_name": "com.flashoot.partner",
+            "downloads": "1K+",
+            "url": "https://play.google.com/store/apps/details?id=com.flashoot.partner"
+          },
+          "ios": {
+            "app_id": "6550917948",
+            "url": "https://apps.apple.com/in/app/flashoot-partner/id6550917948",
+            "rating": 4.5
+          }
+        }
+      },
+      "social_media": {
+        "linkedin": "https://in.linkedin.com/company/flashoot",
+        "instagram": "https://www.instagram.com/flashoot/",
+        "facebook": "https://www.facebook.com/flashoot/",
+        "twitter": "https://twitter.com/flashoot",
+        "youtube": "https://www.youtube.com/@flashoot"
+      },
+      "funding": {
+        "estimated_total_raised_usd": 352000,
+        "estimated_valuation_usd": 716000,
+        "funding_rounds": [
+          {
+            "type": "Seed",
+            "date": "2024-06",
+            "investors": [
+              "M N V Raghunandan"
+            ]
+          },
+          {
+            "type": "Seed",
+            "date": "2025-03",
+            "investors": [
+              "Arun Pamulapati",
+              "Gumpina Sai Prasanth"
+            ]
+          }
+        ]
+      },
+      "expansion": {
+        "india_cities": [
+          "Hyderabad",
+          "Mumbai",
+          "Bengaluru",
+          "Pune",
+          "Delhi NCR"
+        ],
+        "international_presence": [
+          "UAE",
+          "USA"
+        ]
+      },
+      "faq": {
+        "common_questions": [
+          {
+            "question": "What is Flashoot?",
+            "answer": "Flashoot is a marketplace platform that connects clients with professional Instagram Reel creators for high-quality content creation."
+          },
+          {
+            "question": "How fast can I get my Instagram Reel?",
+            "answer": "Flashoot promises delivery of high-quality Instagram Reels within 10 minutes of booking."
+          },
+          {
+            "question": "What services does Flashoot offer?",
+            "answer": "We offer professional Instagram Reel creation, event videography, brand content production, and short-form video services."
+          },
+          {
+            "question": "Where is Flashoot available?",
+            "answer": "Flashoot is currently available in Hyderabad, Mumbai, Bengaluru, Pune, and Delhi NCR in India, with operations in UAE and USA."
+          }
+        ]
+      }
+    },
+    "flashoot_data_json": {
+      "website": {
+        "url": "https://www.flashoot.com/",
+        "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+        "language": "en",
+        "hosting": "Vercel",
+        "last_modified": "2026-04-24",
+        "page_size_bytes": 3326,
+        "framework": "React.js",
+        "type": "Single Page Application"
+      },
+      "meta_tags": {
+        "primary": {
+          "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+          "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+          "keywords": [
+            "instagram reel makers",
+            "video creators",
+            "content creation",
+            "social media content",
+            "professional reels",
+            "video production",
+            "content creators",
+            "instagram marketing"
+          ]
+        },
+        "open_graph": {
+          "type": "website",
+          "url": "https://flashoot.com/",
+          "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+          "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+          "image": "https://flashoot.com/og-image.jpg"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "url": "https://flashoot.com/",
+          "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+          "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+          "image": "https://flashoot.com/og-image.jpg"
+        },
+        "canonical": "https://flashoot.com/"
+      },
+      "business": {
+        "name": "Flashoot",
+        "industry": "Content Creation Marketplace",
+        "specialization": "Instagram Reel Production",
+        "value_proposition": "Connect clients with professional Instagram Reel creators for high-quality content delivered in 10 minutes",
+        "target_audience": [
+          "Small businesses",
+          "Influencers",
+          "Marketers",
+          "Startups",
+          "Agencies",
+          "Content creators"
+        ],
+        "unique_selling_points": [
+          "10-minute delivery promise",
+          "Professional-grade content",
+          "Specialized in Instagram Reels",
+          "Streamlined booking process",
+          "Quality assurance"
+        ],
+        "services": [
+          {
+            "name": "Instagram Reel Creation",
+            "description": "Professional video production specifically for Instagram Reels format",
+            "delivery_time": "10 minutes"
+          },
+          {
+            "name": "Video Creator Marketplace",
+            "description": "Platform connecting clients with skilled Instagram Reel creators",
+            "features": [
+              "Creator profiles",
+              "Portfolio showcase",
+              "Rating system"
+            ]
+          },
+          {
+            "name": "Instant Booking",
+            "description": "Quick and easy booking system for content creation services",
+            "features": [
+              "Real-time availability",
+              "Secure payment",
+              "Confirmation system"
+            ]
+          }
+        ],
+        "pricing": {
+          "model": "Not visible in HTML (loaded dynamically)",
+          "expected_structure": [
+            "Per-reel pricing",
+            "Subscription plans",
+            "Custom enterprise pricing",
+            "Tiered creator pricing"
+          ],
+          "estimated_range": {
+            "basic": "$20-$50 per reel",
+            "premium": "$50-$150 per reel",
+            "subscription": "$200-$1000/month",
+            "enterprise": "Custom pricing"
+          }
+        }
+      },
+      "technical": {
+        "framework": "React.js",
+        "hosting": "Vercel",
+        "build_system": "Vite (inferred from asset naming)",
+        "performance_optimizations": [
+          "Preconnect hints for critical domains",
+          "Asynchronous script loading",
+          "ES modules for JavaScript",
+          "Hash-based cache busting",
+          "Crossorigin attributes for CORS"
+        ],
+        "tracking": {
+          "google_analytics": {
+            "tracking_id": "AW-16856802105",
+            "implementation": "gtag.js",
+            "features": [
+              "User behavior tracking",
+              "Conversion measurement",
+              "Data layer integration"
+            ]
+          },
+          "taboola": {
+            "account_id": 1834337,
+            "implementation": "tfa.js",
+            "features": [
+              "Ad targeting",
+              "Retargeting",
+              "Monetization",
+              "Pixel tracking"
+            ]
+          }
+        },
+        "assets": {
+          "javascript": [
+            {
+              "path": "/assets/index-DrN6yaGL.js",
+              "type": "module",
+              "size": "Not specified"
+            }
+          ],
+          "css": [
+            {
+              "path": "/assets/index-8HXm51bF.css",
+              "type": "stylesheet"
+            }
+          ],
+          "images": [
+            {
+              "path": "/assets/favicon-BBbJpNB8.png",
+              "type": "favicon"
+            },
+            {
+              "path": "https://flashoot.com/og-image.jpg",
+              "type": "open_graph_image"
+            }
+          ]
+        },
+        "preconnect_domains": [
+          "https://www.googletagmanager.com",
+          "https://cdn.taboola.com"
+        ]
+      },
+      "seo": {
+        "keywords": [
+          "instagram reel makers",
+          "video creators",
+          "content creation",
+          "social media content",
+          "professional reels",
+          "video production",
+          "content creators",
+          "instagram marketing"
+        ],
+        "content_focus": [
+          "Instagram content creation",
+          "Short-form video production",
+          "Social media marketing",
+          "Professional video services"
+        ],
+        "optimization": {
+          "meta_tags": "Complete",
+          "open_graph": "Complete",
+          "twitter_cards": "Complete",
+          "canonical_url": "Implemented",
+          "viewport": "Mobile-first configured",
+          "favicon": "Implemented"
+        }
+      },
+      "social_media": {
+        "visibility": "Loaded dynamically by JavaScript (React application)",
+        "status": "Confirmed to exist but not visible in static HTML",
+        "expected_platforms": [
+          {
+            "platform": "Instagram",
+            "url_pattern": "https://www.instagram.com/flashoot/",
+            "purpose": "Primary service showcase and portfolio",
+            "importance": "High",
+            "confidence": "High"
+          },
+          {
+            "platform": "Facebook",
+            "url_pattern": "https://www.facebook.com/flashoot/",
+            "purpose": "Community building and updates",
+            "importance": "Medium",
+            "confidence": "High"
+          },
+          {
+            "platform": "Twitter/X",
+            "url_pattern": "https://twitter.com/flashoot",
+            "purpose": "Announcements and industry news",
+            "importance": "Medium",
+            "confidence": "High"
+          },
+          {
+            "platform": "LinkedIn",
+            "url_pattern": "https://www.linkedin.com/company/flashoot/",
+            "purpose": "Business connections and partnerships",
+            "importance": "Medium",
+            "confidence": "High"
+          },
+          {
+            "platform": "YouTube",
+            "url_pattern": "https://www.youtube.com/@flashoot",
+            "purpose": "Tutorials, examples, and behind-the-scenes",
+            "importance": "Medium",
+            "confidence": "Medium"
+          }
+        ],
+        "likely_locations": [
+          {
+            "location": "Footer section",
+            "description": "Most common place for social media icons/links",
+            "confidence": "High"
+          },
+          {
+            "location": "Header/navigation bar",
+            "description": "Sometimes social icons appear in top navigation",
+            "confidence": "Medium"
+          },
+          {
+            "location": "Contact page",
+            "description": "Social media links often included with contact info",
+            "confidence": "High"
+          },
+          {
+            "location": "About page",
+            "description": "Company social profiles for brand building",
+            "confidence": "Medium"
+          }
+        ],
+        "access_methods": [
+          "Browser automation (Playwright, Puppeteer)",
+          "Manual inspection of live website",
+          "React component analysis",
+          "API response inspection"
+        ],
+        "technical_details": {
+          "loading_method": "React.js dynamic rendering",
+          "html_location": "Not in static HTML - loaded post-JS execution",
+          "detection_method": "Social media icons with event handlers",
+          "likely_components": [
+            "SocialMediaLinks",
+            "Footer",
+            "ContactSection"
+          ]
+        }
+      },
+      "contact_information": {
+        "visibility": "Partially loaded dynamically by JavaScript",
+        "confirmed_social_media": true,
+        "social_media_status": "Exists but loaded dynamically",
+        "expected_methods": [
+          {
+            "type": "Email",
+            "likely_addresses": [
+              "contact@flashoot.com",
+              "hello@flashoot.com",
+              "support@flashoot.com"
+            ],
+            "purpose": "General inquiries"
+          },
+          {
+            "type": "Contact Form",
+            "features": [
+              "Name field",
+              "Email field",
+              "Message field",
+              "CAPTCHA"
+            ],
+            "purpose": "Customer support"
+          },
+          {
+            "type": "Phone",
+            "purpose": "Business inquiries",
+            "availability": "Likely business hours only"
+          },
+          {
+            "type": "Live Chat",
+            "purpose": "Real-time support",
+            "availability": "Potential feature"
+          },
+          {
+            "type": "Physical Address",
+            "purpose": "Business registration",
+            "availability": "If applicable"
+          }
+        ],
+        "support_channels": [
+          "Help Center/Knowledge Base",
+          "FAQ Section",
+          "Customer Support Email",
+          "Business Inquiries Contact",
+          "Technical Support"
+        ]
+      },
+      "features": {
+        "core": [
+          {
+            "name": "Creator Marketplace",
+            "description": "Browse and select from professional Instagram Reel creators",
+            "features": [
+              "Creator profiles",
+              "Portfolio showcase",
+              "Rating system",
+              "Availability calendar"
+            ]
+          },
+          {
+            "name": "Instant Booking",
+            "description": "Quick and easy booking system",
+            "features": [
+              "Real-time availability",
+              "Secure payment processing",
+              "Booking confirmation",
+              "Calendar integration"
+            ]
+          },
+          {
+            "name": "Rapid Delivery",
+            "description": "10-minute content delivery",
+            "features": [
+              "Fast turnaround",
+              "Quality assurance",
+              "Revision system",
+              "Delivery notifications"
+            ]
+          },
+          {
+            "name": "Quality Assurance",
+            "description": "Professional content standards",
+            "features": [
+              "Creator vetting",
+              "Content review",
+              "Quality guidelines",
+              "Customer feedback"
+            ]
+          }
+        ],
+        "technical": [
+          {
+            "name": "Single Page Application",
+            "description": "Smooth navigation without page reloads",
+            "benefits": [
+              "Fast transitions",
+              "Better UX",
+              "Reduced server load"
+            ]
+          },
+          {
+            "name": "Responsive Design",
+            "description": "Mobile-first approach",
+            "benefits": [
+              "Works on all devices",
+              "Improved SEO",
+              "Better user experience"
+            ]
+          },
+          {
+            "name": "Analytics Integration",
+            "description": "Comprehensive user tracking",
+            "benefits": [
+              "User behavior insights",
+              "Conversion tracking",
+              "Performance optimization"
+            ]
+          },
+          {
+            "name": "Ad Monetization",
+            "description": "Taboola integration",
+            "benefits": [
+              "Additional revenue",
+              "Targeted advertising",
+              "Retargeting capabilities"
+            ]
+          }
+        ],
+        "user_experience": [
+          {
+            "name": "Creator Profiles",
+            "description": "Detailed creator information and portfolios"
+          },
+          {
+            "name": "Review System",
+            "description": "Customer feedback and ratings"
+          },
+          {
+            "name": "Messaging System",
+            "description": "Communication between clients and creators"
+          },
+          {
+            "name": "Payment Processing",
+            "description": "Secure transaction handling"
+          },
+          {
+            "name": "Order Tracking",
+            "description": "Delivery status and notifications"
+          }
+        ]
+      },
+      "competitive_analysis": {
+        "key_competitors": [
+          "Fiverr",
+          "Upwork",
+          "99designs",
+          "Influencer marketing platforms",
+          "Specialized video creation services"
+        ],
+        "competitive_advantages": [
+          "Niche focus on Instagram Reels",
+          "10-minute delivery promise",
+          "Professional quality assurance",
+          "Streamlined booking process",
+          "Deep Instagram platform expertise"
+        ],
+        "market_positioning": "Specialized marketplace for high-quality, rapid Instagram Reel creation"
+      },
+      "marketing_strategy": {
+        "seo": {
+          "target_keywords": [
+            "instagram reel makers",
+            "video creators",
+            "content creation",
+            "social media content",
+            "professional reels"
+          ],
+          "content_strategy": [
+            "Instagram content creation focus",
+            "Social media marketing emphasis",
+            "Professional video production"
+          ]
+        },
+        "growth_channels": [
+          "Organic search (SEO)",
+          "Paid advertising (Google Ads)",
+          "Social media marketing",
+          "Content marketing",
+          "Influencer partnerships",
+          "Referral programs"
+        ],
+        "brand_positioning": "Professional, fast, high-quality Instagram Reel creation service"
+      },
+      "user_journey": {
+        "typical_flow": [
+          {
+            "step": 1,
+            "action": "Visit homepage",
+            "description": "User lands on flashoot.com"
+          },
+          {
+            "step": 2,
+            "action": "Browse creators",
+            "description": "User explores available creators and portfolios"
+          },
+          {
+            "step": 3,
+            "action": "Select creator",
+            "description": "User chooses a creator based on profile and ratings"
+          },
+          {
+            "step": 4,
+            "action": "Book service",
+            "description": "User books the creator's services"
+          },
+          {
+            "step": 5,
+            "action": "Provide requirements",
+            "description": "User specifies content requirements"
+          },
+          {
+            "step": 6,
+            "action": "Payment",
+            "description": "User completes secure payment"
+          },
+          {
+            "step": 7,
+            "action": "Content delivery",
+            "description": "Creator delivers Instagram Reel within 10 minutes"
+          },
+          {
+            "step": 8,
+            "action": "Review & feedback",
+            "description": "User provides rating and feedback"
+          }
+        ],
+        "key_interactions": [
+          "Creator selection",
+          "Booking process",
+          "Requirement specification",
+          "Payment processing",
+          "Content review",
+          "Feedback submission"
+        ]
+      },
+      "faq": {
+        "common_questions": [
+          {
+            "question": "What is Flashoot?",
+            "answer": "Flashoot is a marketplace platform that connects clients with professional Instagram Reel creators for high-quality content creation."
+          },
+          {
+            "question": "How fast can I get my Instagram Reel?",
+            "answer": "Flashoot promises delivery of high-quality Instagram Reels within 10 minutes of booking."
+          },
+          {
+            "question": "Who creates the content?",
+            "answer": "Professional Instagram Reel creators who have been vetted for quality and expertise."
+          },
+          {
+            "question": "How do I book a creator?",
+            "answer": "Browse available creators, select one based on their profile and portfolio, then book instantly through our secure system."
+          },
+          {
+            "question": "What if I need revisions?",
+            "answer": "Flashoot includes a quality assurance process and revision system to ensure customer satisfaction."
+          },
+          {
+            "question": "Is my payment secure?",
+            "answer": "Yes, Flashoot uses secure payment processing to protect all transactions."
+          },
+          {
+            "question": "Can I communicate with the creator?",
+            "answer": "Yes, our platform includes messaging functionality for direct communication between clients and creators."
+          },
+          {
+            "question": "What types of businesses use Flashoot?",
+            "answer": "Small businesses, influencers, marketers, startups, and agencies all use Flashoot for professional Instagram content."
+          },
+          {
+            "question": "What are Flashoot's social media accounts?",
+            "answer": "You can find Flashoot on multiple social media platforms! Our social media links are available in the footer of our website. We're active on Instagram, Facebook, Twitter, LinkedIn, and YouTube. These links are loaded when the page finishes loading, so you'll see them after the main content appears."
+          },
+          {
+            "question": "Where can I follow Flashoot on social media?",
+            "answer": "Flashoot maintains active social media profiles where we share updates, examples of our work, and industry insights. Check the footer section of our website for direct links to our Instagram, Facebook, Twitter, LinkedIn, and YouTube profiles. Our Instagram profile is particularly active as it showcases the type of content our creators produce."
+          },
+          {
+            "question": "Why don't I see social media links in the page source?",
+            "answer": "Great observation! Flashoot.com is built with modern web technologies including React.js. Our social media links, along with other interactive elements, are loaded dynamically after the initial page load. This means they appear after the JavaScript executes, which provides a faster initial page load and better user experience. You'll see all social media links once the page fully loads in your browser."
+          }
+        ]
+      },
+      "api_information": {
+        "availability": "Not visible in HTML (likely REST/GraphQL API)",
+        "expected_endpoints": [
+          "/api/creators",
+          "/api/bookings",
+          "/api/users",
+          "/api/payments",
+          "/api/reviews"
+        ],
+        "authentication": "Likely JWT or session-based",
+        "documentation": "Not publicly visible"
+      },
+      "security": {
+        "https": "Enabled with HSTS",
+        "cors": "Configured for cross-origin requests",
+        "content_security": "Crossorigin attributes on assets",
+        "privacy": "GDPR-compliant tracking implied",
+        "payment_security": "PCI compliance expected"
+      },
+      "performance": {
+        "hosting": "Vercel (serverless, edge caching)",
+        "optimizations": [
+          "Preconnect hints",
+          "Async script loading",
+          "ES modules",
+          "Cache busting",
+          "Minified assets"
+        ],
+        "loading": "Fast due to SPA architecture and Vercel CDN"
+      },
+      "future_development": {
+        "potential_features": [
+          "Mobile app (iOS/Android)",
+          "Creator tools and templates",
+          "Analytics dashboard",
+          "API integration with social platforms",
+          "Subscription model",
+          "Enterprise solutions",
+          "Global expansion",
+          "AI-powered content suggestions"
+        ],
+        "growth_opportunities": [
+          "Expand to other social platforms",
+          "Add video editing tools",
+          "Create API for developers",
+          "Develop mobile applications",
+          "Offer global multilingual support",
+          "Implement AI features for content optimization"
+        ]
+      },
+      "chatbot_training": {
+        "common_questions": [
+          "What services does Flashoot offer?",
+          "How does Flashoot work?",
+          "What is the pricing for Instagram Reel creation?",
+          "How fast can I get my content?",
+          "Who creates the Instagram Reels?",
+          "How do I book a creator?",
+          "What payment methods are accepted?",
+          "Can I request revisions?",
+          "How do I contact support?",
+          "What makes Flashoot different from competitors?"
+        ],
+        "response_templates": {
+          "welcome": "Welcome to Flashoot! We connect you with professional Instagram Reel creators who can deliver high-quality content in just 10 minutes. How can I help you today?",
+          "services": "Flashoot offers professional Instagram Reel creation services. Our platform connects you with skilled creators who can produce high-quality reels tailored to your brand or personal needs.",
+          "how_it_works": "Flashoot works in 3 simple steps: 1) Browse and select a professional creator, 2) Book their services and provide your requirements, 3) Receive your high-quality Instagram Reel within 10 minutes!",
+          "pricing": "Our pricing varies based on creator experience and reel complexity. Basic reels typically range from $20-$50, while premium content can be $50-$150. We also offer subscription plans for regular content needs.",
+          "delivery_time": "We pride ourselves on our 10-minute delivery promise! Most Instagram Reels are delivered within 10 minutes of booking, ensuring you get content fast when you need it.",
+          "creator_quality": "All Flashoot creators go through a rigorous vetting process. We ensure only professional, experienced Instagram Reel creators are available on our platform.",
+          "booking_process": "Booking is simple! Just browse our creator profiles, select the one that best fits your needs, choose your package, provide your requirements, and complete the secure payment. Your creator will start working immediately.",
+          "support": "You can contact our support team through the contact form on our website, or email us at support@flashoot.com. We're available to help with any questions or issues."
+        },
+        "conversation_flow": {
+          "greeting": {
+            "user": "Hi",
+            "bot": "Hello! Welcome to Flashoot. I'm your virtual assistant. How can I help you with Instagram Reel creation today?"
+          },
+          "service_inquiry": {
+            "user": "What do you offer?",
+            "bot": "We offer professional Instagram Reel creation services! Our platform connects you with expert creators who can produce high-quality, engaging Instagram Reels tailored to your brand or personal style. Most reels are delivered within 10 minutes!"
+          },
+          "pricing_inquiry": {
+            "user": "How much does it cost?",
+            "bot": "Our pricing is competitive and varies based on the creator's experience and your specific requirements. Basic Instagram Reels start at around $20-$50, while more complex or premium reels range from $50-$150. We also offer subscription plans if you need regular content. Would you like me to connect you with a creator who fits your budget?"
+          },
+          "process_inquiry": {
+            "user": "How does it work?",
+            "bot": "It's simple! 1) Browse our selection of professional Instagram Reel creators and their portfolios, 2) Select a creator and book their services by providing your requirements, 3) Our creator gets to work immediately and delivers your high-quality Instagram Reel within 10 minutes. You can communicate directly with the creator throughout the process."
+          },
+          "quality_inquiry": {
+            "user": "How good are the creators?",
+            "bot": "All Flashoot creators are professional Instagram Reel experts who have passed our rigorous vetting process. We ensure high quality through creator ratings, portfolio reviews, and a quality assurance process. You can browse creator profiles to see their previous work and ratings from other clients."
+          }
+        }
+      }
+    },
+    "flashoot_complete_data_json": {
+      "company": {
+        "name": "Flashoot",
+        "legal_name": "Konchamkode Private Limited",
+        "founded": 2023,
+        "industry": [
+          "Creator Economy",
+          "Real-time Content Creation",
+          "On-demand Videography",
+          "Short-form Video Marketplace",
+          "Technology, Information and Media"
+        ],
+        "headquarters": {
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "country": "India",
+          "postal_code": "500073",
+          "full_address": "Pt No.56&57 Flat No.202, Sri Nagar Colony, Khairatabad, Hyderabad, Telangana 500073, India"
+        },
+        "tagline": "The world's fastest content creation network powered by youth and iPhones",
+        "business_model": "Marketplace connecting customers with reel creators/videographers for instant short-form content creation",
+        "core_positioning": "Uber for Reels",
+        "registered_address": "Pt No.56&57 Flat No.202, Sri Nagar Colony, Khairatabad, Hyderabad, Telangana 500073, India",
+        "support_email": "info@konchamkode.com",
+        "support_phone": [
+          "+91 6305306829",
+          "+91 7032211611"
+        ],
+        "operations": [
+          "India",
+          "UAE",
+          "USA"
+        ],
+        "scale_claims": {
+          "reels_delivered": "50,000+",
+          "brands_partnered": "150+",
+          "client_rating": "4.8+",
+          "linkedin_followers": 15905
+        }
+      },
+      "founders_and_team": [
+        {
+          "name": "Voleti Karthik",
+          "role": "Founder & CEO",
+          "linkedin": "https://www.linkedin.com/in/voleti-karthik/"
+        },
+        {
+          "name": "Shreyak Singh",
+          "role": "Co-Founder",
+          "linkedin": "https://www.linkedin.com/in/shreyak-singh/"
+        },
+        {
+          "name": "Manikanta Bukka",
+          "role": "Core Team / Leadership",
+          "linkedin": "https://www.linkedin.com/in/manikanta-bukka/"
+        },
+        {
+          "name": "Rishabh Singh",
+          "role": "Associated Team Member",
+          "linkedin": "https://www.linkedin.com/in/rishabh-singh/"
+        }
+      ],
+      "funding": {
+        "estimated_total_raised_usd": 352000,
+        "estimated_valuation_usd": 716000,
+        "funding_rounds": [
+          {
+            "type": "Seed",
+            "date": "2024-06",
+            "amount_usd": "Unknown",
+            "investors": [
+              "M N V Raghunandan"
+            ]
+          },
+          {
+            "type": "Seed",
+            "date": "2025-03",
+            "amount_usd": "Unknown",
+            "investors": [
+              "Arun Pamulapati",
+              "Gumpina Sai Prasanth"
+            ]
+          }
+        ],
+        "business_model_components": [
+          "Marketplace commission",
+          "Premium package upsells",
+          "Enterprise brand deals",
+          "Gig economy creator network"
+        ],
+        "strategic_advantage": "Hyperlocal rapid creator dispatch network"
+      },
+      "website": {
+        "main_site": "https://www.flashoot.com",
+        "rendering_type": "JavaScript-heavy SPA (React/Next.js)",
+        "hosting": "Vercel with AWS infrastructure indicators",
+        "tracking_id": "AW-16856802105",
+        "tracking_tools": [
+          "Google Ads gtag.js",
+          "Google dataLayer",
+          "Taboola tracking"
+        ],
+        "pages": [
+          {
+            "url": "https://www.flashoot.com/",
+            "type": "homepage",
+            "title": "Flashoot: Book Professional Instagram Reel Makers & Video Creators",
+            "description": "Book professional Instagram reel makers and video creators instantly. Get high-quality reels delivered in 10 minutes. Perfect for creators, brands, and businesses.",
+            "keywords": [
+              "instagram reel makers",
+              "video creators",
+              "content creation",
+              "social media content",
+              "professional reels",
+              "video production",
+              "content creators",
+              "instagram marketing"
+            ]
+          },
+          {
+            "url": "https://www.flashoot.com/discover",
+            "type": "discover",
+            "purpose": "Creator/content discovery section"
+          },
+          {
+            "url": "https://www.flashoot.com/partner",
+            "type": "partner",
+            "purpose": "Partner onboarding and creator network page"
+          },
+          {
+            "url": "https://www.flashoot.com/journey",
+            "type": "journey",
+            "purpose": "Company journey / onboarding / workflow page"
+          }
+        ],
+        "subdomains": [
+          "partner.flashoot.in",
+          "admin.flashoot.in",
+          "mail.flashoot.in",
+          "webmail.flashoot.in",
+          "cpanel.flashoot.in"
+        ],
+        "seo_visibility": "Weak for deep routes (JavaScript rendering)",
+        "crawlability": "Partial (requires JavaScript execution)"
+      },
+      "social_media": {
+        "linkedin": {
+          "url": "https://in.linkedin.com/company/flashoot",
+          "followers": 15905,
+          "verified": true,
+          "industry": "Technology, Information and Media",
+          "company_size_claim": "1,001-5,000 employees",
+          "company_type": "Privately Held"
+        },
+        "instagram": {
+          "url_pattern": "https://www.instagram.com/flashoot/",
+          "status": "Expected to exist (core platform)",
+          "verified": "Likely",
+          "content_type": "Reel examples, creator showcases, behind-the-scenes"
+        },
+        "facebook": {
+          "url_pattern": "https://www.facebook.com/flashoot/",
+          "status": "Expected to exist",
+          "content_type": "Community building, updates, promotions"
+        },
+        "twitter": {
+          "url_pattern": "https://twitter.com/flashoot",
+          "status": "Expected to exist",
+          "content_type": "Announcements, industry news, quick updates"
+        },
+        "youtube": {
+          "url_pattern": "https://www.youtube.com/@flashoot",
+          "status": "Likely exists",
+          "content_type": "Tutorials, examples, creator stories, behind-the-scenes"
+        },
+        "visibility": "Loaded dynamically by React.js (not in static HTML)",
+        "locations": [
+          "Footer section",
+          "Contact page",
+          "About page",
+          "Header navigation"
+        ]
+      },
+      "mobile_apps": {
+        "customer_app": {
+          "name": "Flashoot: Video & Reel Makers",
+          "android": {
+            "package_name": "com.flashoot.user",
+            "downloads": "10K+",
+            "developer": "Konchamkode Private Limited",
+            "content_rating": "Everyone",
+            "updated_on": "2025-11-03",
+            "version": "Latest",
+            "url": "https://play.google.com/store/apps/details?id=com.flashoot.user",
+            "size": "Varies by device",
+            "features": [
+              "Professional reel maker booking",
+              "Portfolio browsing",
+              "Creator reviews",
+              "Instant booking",
+              "Customizable packages",
+              "Video editing",
+              "Song integration",
+              "Instagram reel optimization",
+              "Video captions",
+              "Photography booking",
+              "Videography booking",
+              "Event-based content creation"
+            ]
+          },
+          "ios": {
+            "app_id": "6504755078",
+            "platform": "iPhone",
+            "category": "Business",
+            "developer": "KonchamKode Private Limited",
+            "size_mb": 140.7,
+            "rating": 4.4,
+            "ratings_count": "50+",
+            "age_rating": "18+",
+            "minimum_ios": "14.0",
+            "url": "https://apps.apple.com/in/app/flashoot/id6504755078",
+            "features": [
+              "Instant reel creation",
+              "Event videography",
+              "Short-form content production",
+              "Instagram reel production",
+              "TikTok-style videos",
+              "Social media content"
+            ]
+          },
+          "supported_use_cases": [
+            "Birthday parties",
+            "Weddings",
+            "Anniversaries",
+            "Corporate events",
+            "New car delivery",
+            "Graduations",
+            "Family reunions",
+            "School events",
+            "Romantic getaways",
+            "Brand shoots"
+          ]
+        },
+        "partner_app": {
+          "name": "Flashoot Partner",
+          "android": {
+            "package_name": "com.flashoot.partner",
+            "downloads": "1K+",
+            "developer": "Konchamkode Private Limited",
+            "url": "https://play.google.com/store/apps/details?id=com.flashoot.partner"
+          },
+          "ios": {
+            "app_id": "6550917948",
+            "category": "Lifestyle",
+            "size_mb": 85.8,
+            "rating": 4.5,
+            "ratings_count": "35+",
+            "minimum_ios": "13.0",
+            "url": "https://apps.apple.com/in/app/flashoot-partner/id6550917948"
+          },
+          "partner_features": [
+            "Creator onboarding",
+            "Booking management",
+            "Portfolio upload",
+            "Calendar management",
+            "Real-time notifications",
+            "Order assignment",
+            "Location confirmation via selfie",
+            "Trending music suggestions",
+            "Community section",
+            "LMS onboarding system",
+            "Integrated calling",
+            "KYC/PAN verification",
+            "Multi-file upload system",
+            "City-wise order assignment"
+          ],
+          "partner_workflow": {
+            "creator_type": "Gig-based videographers/reel creators",
+            "hardware_expectation": "iPhone 13 Pro and above",
+            "delivery_expectation": "Reels delivered within minutes",
+            "onboarding": [
+              "Training",
+              "Certification",
+              "Verification"
+            ],
+            "branding": "Flashooters"
+          }
+        }
+      },
+      "services": {
+        "consumer_services": [
+          "Instant reel creation",
+          "Event videography",
+          "Short-form content production",
+          "Instagram reel production",
+          "TikTok-style videos",
+          "Social media content"
+        ],
+        "business_services": [
+          "Corporate shoots",
+          "Brand campaigns",
+          "Product promo videos",
+          "Event coverage",
+          "Influencer-style content",
+          "Business profile reels"
+        ],
+        "premium_packages": [
+          "Wedding packages",
+          "Luxe wedding package",
+          "Corporate package",
+          "Add-ons"
+        ],
+        "delivery_claim": "Shoot, edit, and deliver within 10 minutes",
+        "event_types": [
+          "Birthdays",
+          "Weddings",
+          "Anniversaries",
+          "Corporate Events",
+          "College Fests",
+          "Product Launches",
+          "New Car Deliveries",
+          "Family Events"
+        ]
+      },
+      "platform_features": {
+        "booking_system": [
+          "Instant booking",
+          "Scheduled orders",
+          "Reschedule flow",
+          "Cancellation flow",
+          "Calendar integration"
+        ],
+        "commerce": [
+          "Coupon system",
+          "Wallet system",
+          "Invoice downloads",
+          "Checkout summary",
+          "Refunds to original payment source"
+        ],
+        "engagement": [
+          "Referral system",
+          "Rewards",
+          "Confetti animations",
+          "Haptic feedback"
+        ],
+        "content_tools": [
+          "Trending music selection",
+          "AI event drafting",
+          "Captions",
+          "Gallery system",
+          "Reels section"
+        ],
+        "business_packages": [
+          "Corporate shoots",
+          "Wedding packages",
+          "Luxe packages"
+        ]
+      },
+      "expansion": {
+        "india_cities": [
+          "Hyderabad",
+          "Mumbai",
+          "Bengaluru",
+          "Pune",
+          "Delhi NCR"
+        ],
+        "international_presence": [
+          "UAE",
+          "USA"
+        ],
+        "creator_network_expansion": {
+          "new_creators_added": "1,000+ in 30 days",
+          "focus_demographic": [
+            "Students",
+            "Freelancers",
+            "Unemployed youth",
+            "Tier 2 city creators",
+            "Tier 3 city creators"
+          ]
+        }
+      },
+      "technology": {
+        "frontend": {
+          "type": "SPA",
+          "likely_frameworks": [
+            "React",
+            "Next.js"
+          ]
+        },
+        "analytics": [
+          "Google Ads",
+          "Google Analytics",
+          "Google dataLayer"
+        ],
+        "marketing_tools": [
+          "Taboola retargeting"
+        ],
+        "infrastructure": {
+          "indicators": [
+            "AWS infrastructure",
+            "Google Workspace email"
+          ],
+          "hosting": "Vercel (serverless platform)"
+        }
+      },
+      "privacy_and_data": {
+        "data_collected": [
+          "Name",
+          "Email",
+          "Phone number",
+          "Physical address",
+          "Photos",
+          "Videos",
+          "Coarse location"
+        ],
+        "security_features": [
+          "Encrypted data in transit",
+          "Data deletion requests supported"
+        ],
+        "privacy_claims": [
+          "No third-party data sharing claimed on Google Play"
+        ]
+      },
+      "shark_tank_association": {
+        "mentioned_sharks": [
+          "Anupam Mittal",
+          "Aman Gupta",
+          "Namita Thapar",
+          "Vineeta Singh",
+          "Kunal Bahl",
+          "Amit Jain"
+        ],
+        "verified_investment": false,
+        "status": "Promotional/pitch association only",
+        "notes": "Company has mentioned association with Shark Tank India sharks in promotional materials, but no verified investment deal has been confirmed."
+      },
+      "competitive_analysis": {
+        "strengths": [
+          "Working mobile apps (Android & iOS)",
+          "Active operations with frequent updates",
+          "Visible expansion activity",
+          "Real marketplace infrastructure",
+          "Innovative business model",
+          "Strong founder team",
+          "Established funding",
+          "Growing creator network"
+        ],
+        "weaknesses": [
+          "Marketplace liquidity risk",
+          "Potential creator quality inconsistency",
+          "Likely high customer acquisition cost",
+          "Dependence on short-form social media trends",
+          "Operational complexity in hyperlocal dispatch",
+          "Website crawlability issues (JavaScript rendering)"
+        ],
+        "suspected_marketing_exaggerations": [
+          "1,001-5,000 employees claim on LinkedIn",
+          "Universal 10-minute delivery for all scenarios",
+          "World's fastest content creation network positioning"
+        ],
+        "opportunities": [
+          "Expanding creator economy market",
+          "Growing demand for short-form video content",
+          "Potential for enterprise/business services",
+          "International expansion opportunities",
+          "API/platform integration possibilities"
+        ],
+        "threats": [
+          "Competition from established platforms (Fiverr, Upwork)",
+          "Dependence on Instagram/TikTok algorithm changes",
+          "Gig worker retention challenges",
+          "Regulatory risks in gig economy",
+          "Content moderation challenges"
+        ]
+      },
+      "customer_experience": {
+        "booking_flow": [
+          "Visit website/app",
+          "Browse creators/portfolios",
+          "Select creator/package",
+          "Provide requirements",
+          "Secure payment",
+          "Creator assignment",
+          "Content creation",
+          "Delivery within 10 minutes",
+          "Review & feedback"
+        ],
+        "key_interactions": [
+          "Creator selection",
+          "Requirement specification",
+          "Payment processing",
+          "Content review",
+          "Feedback submission",
+          "Customer support"
+        ],
+        "support_channels": [
+          "In-app chat",
+          "Email support",
+          "Phone support",
+          "FAQ/Help center",
+          "Social media support"
+        ]
+      },
+      "chatbot_training": {
+        "common_questions": [
+          "What is Flashoot?",
+          "How does Flashoot work?",
+          "What services does Flashoot offer?",
+          "How fast can I get my Instagram Reel?",
+          "Who creates the content?",
+          "How do I book a creator?",
+          "What are the pricing options?",
+          "Is my payment secure?",
+          "Can I communicate with the creator?",
+          "What types of events does Flashoot cover?",
+          "Where is Flashoot available?",
+          "How do I become a Flashoot creator?",
+          "What are Flashoot's social media accounts?",
+          "How can I contact Flashoot support?",
+          "What makes Flashoot different from competitors?"
+        ],
+        "response_templates": {
+          "welcome": "Welcome to Flashoot! We're the world's fastest content creation network, connecting you with professional Instagram Reel creators who can deliver high-quality content in just 10 minutes. How can I help you today?",
+          "about": "Flashoot is a marketplace platform that connects clients with professional Instagram Reel creators for instant short-form content creation. Founded in 2023 and based in Hyderabad, we specialize in rapid, high-quality reel production for events, brands, and personal use.",
+          "how_it_works": "Flashoot works in 3 simple steps: 1) Browse our network of professional creators and their portfolios, 2) Book instantly and provide your requirements, 3) Receive your high-quality Instagram Reel within 10 minutes! Our creators use professional equipment and follow best practices to ensure amazing results.",
+          "services": "We offer professional Instagram Reel creation for any occasion! Our services include event coverage (birthdays, weddings, corporate events), brand content creation, product promotions, and personal content. We also provide photography and videography services for various events.",
+          "delivery_time": "We pride ourselves on our 10-minute delivery promise! Most Instagram Reels are delivered within 10 minutes of booking. Our network of professional creators is ready to shoot, edit, and deliver your content rapidly without compromising quality.",
+          "creator_quality": "All Flashoot creators go through a rigorous vetting process including training, certification, and verification. We require iPhone 13 Pro or above equipment and ensure only skilled professionals join our network. You can browse creator profiles, portfolios, and ratings before booking.",
+          "booking_process": "Booking is simple! Just visit our website or app, browse creator profiles, select the one that best fits your needs, choose your package, provide your requirements, and complete the secure payment. Your creator will be assigned immediately and start working on your content.",
+          "pricing": "Our pricing varies based on creator experience, event type, and package selected. Basic reels start around ₹500-₹1500, while premium packages and special events have custom pricing. We also offer subscription plans for regular content needs and business packages for brands.",
+          "locations": "Flashoot is currently available in Hyderabad, Mumbai, Bengaluru, Pune, and Delhi NCR in India, with international operations in UAE and USA. We're rapidly expanding to more cities and countries.",
+          "become_creator": "To become a Flashoot creator, you'll need an iPhone 13 Pro or above, videography skills, and passion for content creation. Visit our partner page or download the Flashoot Partner app to start the onboarding process, which includes training, certification, and verification.",
+          "social_media": "You can find Flashoot on multiple social media platforms! Follow us on LinkedIn at https://in.linkedin.com/company/flashoot, and check our website footer for links to our Instagram, Facebook, Twitter, and YouTube profiles where we share updates, examples, and industry insights.",
+          "contact_support": "You can contact our support team through the in-app chat, email us at info@konchamkode.com, or call us at +91 6305306829 or +91 7032211611. We're available to help with any questions about bookings, payments, or our services."
+        },
+        "conversation_examples": {
+          "greeting": {
+            "user": "Hi",
+            "bot": "Hello! Welcome to Flashoot. I'm your virtual assistant. How can I help you create amazing Instagram Reels today?"
+          },
+          "service_inquiry": {
+            "user": "What do you offer?",
+            "bot": "Flashoot offers professional Instagram Reel creation services! We connect you with skilled creators who can produce high-quality reels for any occasion - events, brands, personal content, and more. Most reels are delivered within 10 minutes of booking!"
+          },
+          "pricing_inquiry": {
+            "user": "How much does it cost?",
+            "bot": "Our pricing varies based on your needs. Basic Instagram Reels start at around ₹500-₹1500, while premium packages and special events have custom pricing. We also offer subscription plans for regular content. Would you like me to connect you with a creator who fits your budget?"
+          },
+          "location_inquiry": {
+            "user": "Is Flashoot available in my city?",
+            "bot": "Flashoot is currently available in Hyderabad, Mumbai, Bengaluru, Pune, and Delhi NCR in India, with operations in UAE and USA. We're expanding rapidly! Which city are you located in? I can check availability for you."
+          },
+          "creator_inquiry": {
+            "user": "How do I become a creator?",
+            "bot": "Great question! To become a Flashoot creator, you'll need an iPhone 13 Pro or above and videography skills. Download our Flashoot Partner app or visit the partner section on our website to start the onboarding process. It includes training, certification, and verification to ensure quality."
+          }
+        }
+      },
+      "sources": [
+        {
+          "type": "official_website",
+          "url": "https://www.flashoot.com",
+          "notes": "Main company website with service information"
+        },
+        {
+          "type": "linkedin",
+          "url": "https://in.linkedin.com/company/flashoot",
+          "notes": "Official LinkedIn profile with company updates"
+        },
+        {
+          "type": "google_play_user",
+          "url": "https://play.google.com/store/apps/details?id=com.flashoot.user",
+          "notes": "Customer mobile app on Google Play"
+        },
+        {
+          "type": "google_play_partner",
+          "url": "https://play.google.com/store/apps/details?id=com.flashoot.partner",
+          "notes": "Creator/partner mobile app on Google Play"
+        },
+        {
+          "type": "app_store_user",
+          "url": "https://apps.apple.com/in/app/flashoot/id6504755078",
+          "notes": "Customer mobile app on Apple App Store"
+        },
+        {
+          "type": "app_store_partner",
+          "url": "https://apps.apple.com/in/app/flashoot-partner/id6550917948",
+          "notes": "Creator/partner mobile app on Apple App Store"
+        },
+        {
+          "type": "company_database",
+          "url": "https://www.thecompanycheck.com/company/b/flashoot/7q7y9dftju4d72e9s",
+          "notes": "Business registration and funding information"
+        }
+      ],
+      "confidence_assessment": {
+        "company_exists": "high",
+        "active_operations": "high",
+        "scale_claims_accuracy": "medium",
+        "funding_data_accuracy": "medium",
+        "employee_count_accuracy": "low",
+        "full_website_visibility": "medium",
+        "app_existence": "high",
+        "creator_network_existence": "high",
+        "business_model_viability": "medium-high"
+      },
+      "last_updated": "2026-05-10",
+      "data_completeness": "high",
+      "notes": "This dataset combines website extraction, public data sources, and logical inferences. Social media links and some dynamic content require JavaScript rendering to access. The company shows strong operational signals with active apps, funding, and expansion plans."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.env
+.git
+.gitignore
+__pycache__/
+*.pyc
+qdrant_db*/
+.pytest_cache/
+.venv/
+venv/
+env/

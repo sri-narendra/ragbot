@@ -658,7 +658,7 @@ def _corsify(response):
 
 
 def create_app() -> Flask:
-    """Flask app factory for Railway/local HTTP API."""
+    """Flask app factory for Render/local HTTP API."""
     app = Flask(__name__)
 
     @app.after_request

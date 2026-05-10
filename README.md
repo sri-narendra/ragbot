@@ -6,6 +6,9 @@ A production-ready RAG-based chatbot using Gemini, Mistral, Groq, and OpenRouter
 
 ```
 bot/
+├── Dockerfile           # Docker image for Render/backend deployment
+├── .dockerignore        # Docker build exclusions
+├── Procfile             # Render/Gunicorn start command
 ├── main.py              # Main chatbot application
 ├── requirements.txt     # Python dependencies
 ├── .env.example         # Environment configuration template
@@ -86,9 +89,9 @@ python main.py
 python main.py
 ```
 
-## 🌐 HTTP API Mode (for Railway + Frontend)
+## 🌐 HTTP API Mode (for Render + GitHub Pages Frontend)
 
-This project now supports API mode so you can host backend on Railway and frontend on GitHub Pages.
+This project supports API mode so you can host the backend on Render and the frontend on GitHub Pages.
 
 ### Start API locally
 
@@ -122,29 +125,57 @@ ALLOWED_ORIGINS=https://yourusername.github.io,http://127.0.0.1:5500
 - Open `index.html` in browser (or host via GitHub Pages)
 - Set backend URL in UI:
   - Local: `http://127.0.0.1:8000`
-  - Railway: `https://your-app.up.railway.app`
+  - Render: `https://your-render-service.onrender.com`
 - Click **Save** and start chatting
 
 The selected API base URL is persisted in browser `localStorage`.
 
-## 🚂 Deploy Backend on Railway
+## Deploy Backend on Render
+
+Recommended: deploy as a Docker-backed Render Web Service for more consistent production behavior.
 
 1. Push this repo to GitHub.
-2. Create a Railway project from the repo.
-3. Set environment variables in Railway:
+2. Create a **Render Web Service** from the repo.
+3. Select **Docker** as the runtime/environment.
+4. Render will build using the included `Dockerfile`.
+5. Set environment variables in Render:
    - `RUN_MODE=api`
    - `ALLOWED_ORIGINS=https://yourusername.github.io`
    - your API key variables (e.g., `GEMINI_API_KEYS`, etc.)
-4. Railway provides `PORT` automatically; app uses it.
-5. Deploy and verify:
-   - `https://your-app.up.railway.app/health`
+6. Render provides `PORT` automatically; the Docker command uses it.
+7. Deploy and verify:
+   - `https://your-render-service.onrender.com/health`
+
+Alternative non-Docker Render settings:
+- **Environment**: Python
+- **Build Command**: `pip install -r requirements.txt`
+- **Start Command**: `gunicorn "main:create_app()" --bind 0.0.0.0:$PORT --workers 1 --timeout 180`
+- Or let Render use the included `Procfile`.
+
+## 🐳 Local Docker Testing
+
+Build image:
+
+```bash
+docker build -t flashoot-ragbot .
+```
+
+Run container using your local `.env` file:
+
+```bash
+docker run --env-file .env -p 8000:8000 flashoot-ragbot
+```
+
+Then open:
+- `http://127.0.0.1:8000/health`
+- Use `http://127.0.0.1:8000` as backend URL in `index.html`
 
 ## 📄 Deploy Frontend on GitHub Pages
 
 1. Keep `index.html` at repo root (already added).
 2. In GitHub repo settings, enable Pages for your branch/root.
 3. Open the Pages URL.
-4. In the frontend input, paste Railway backend URL and click **Save**.
+4. In the frontend input, paste Render backend URL and click **Save**.
 
 ## 💬 Usage
 
@@ -218,7 +249,8 @@ The chatbot handles:
 ✅ Interactive CLI interface
 ✅ HTTP API mode for web frontend
 ✅ GitHub Pages-friendly frontend (`index.html`)
-✅ Railway-ready backend configuration
+✅ Render-ready backend configuration
+✅ Docker-ready backend deployment
 
 ## 🔒 Security
 

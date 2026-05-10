@@ -27,7 +27,7 @@
       <input id="apiBase" placeholder="Backend URL (Render or local)" />
       <button id="saveBtn">Save</button>
     </div>
-    <div class="meta">Examples: <code>https://your-render-service.onrender.com</code> or <code>http://127.0.0.1:8000</code></div>
+    <div class="meta">Default backend: <code>https://ragbot-80w0.onrender.com</code> | Local testing: <code>http://127.0.0.1:8000</code></div>
     <br />
     <div id="chat"></div>
     <br />
@@ -44,9 +44,9 @@
     const apiBaseEl = document.getElementById('apiBase');
     const saveBtn = document.getElementById('saveBtn');
 
-    const LOCAL_DEFAULT = 'http://127.0.0.1:8000';
+    const DEPLOYED_DEFAULT = 'https://ragbot-80w0.onrender.com';
     const storedBase = localStorage.getItem('FLASHOOT_API_BASE');
-    apiBaseEl.value = storedBase || LOCAL_DEFAULT;
+    apiBaseEl.value = storedBase || DEPLOYED_DEFAULT;
 
     function appendMessage(role, text) {
       const div = document.createElement('div');

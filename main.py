@@ -139,7 +139,11 @@ class CompanyChatbot:
                 "Please ensure the JSON data file exists."
             )
 
-        if not os.path.exists('.env'):
+        # Render and other production platforms provide environment variables
+        # through their dashboard, so a physical .env file should only be
+        # required for local CLI/local development usage.
+        is_api_mode = os.getenv("RUN_MODE", "cli").strip().lower() == "api"
+        if not is_api_mode and not os.path.exists('.env'):
             raise FileNotFoundError(
                 "'.env' file not found. "
                 "Please create it with at least one configured API key."

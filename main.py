@@ -2,9 +2,11 @@ import os
 import json
 import sys
 import logging
+import time
 from dataclasses import dataclass
 from typing import List, Dict, Any
 from threading import Lock
+from collections import defaultdict, deque
 
 import qdrant_client
 from langchain_core.documents import Document
@@ -38,6 +40,11 @@ TOP_K = int(os.getenv("TOP_K", "5"))
 DEFAULT_TEMPERATURE = 0.2
 DEFAULT_MAX_TOKENS = 700
 SKIPPED_INDEX_SECTIONS = {"source_file_snapshots"}
+MAX_REQUEST_BYTES = int(os.getenv("MAX_REQUEST_BYTES", "4096"))
+MAX_MESSAGE_CHARS = int(os.getenv("MAX_MESSAGE_CHARS", "500"))
+RATE_LIMIT_REQUESTS = int(os.getenv("RATE_LIMIT_REQUESTS", "12"))
+RATE_LIMIT_WINDOW_SECONDS = int(os.getenv("RATE_LIMIT_WINDOW_SECONDS", "60"))
+MIN_SECONDS_BETWEEN_REQUESTS = float(os.getenv("MIN_SECONDS_BETWEEN_REQUESTS", "1.5"))
 UNKNOWN_ANSWER_PATTERNS = (
     "i don't know",
     "i do not know",
@@ -56,12 +63,46 @@ ALLOWED_ORIGINS = [origin.strip() for origin in os.getenv("ALLOWED_ORIGINS", "*"
 
 _chatbot_instance = None
 _chatbot_lock = Lock()
+_rate_limit_lock = Lock()
+_request_timestamps = defaultdict(deque)
+_last_request_time = {}
 
 logging.basicConfig(
     level=os.getenv("LOG_LEVEL", "INFO").upper(),
     format="%(asctime)s | %(levelname)s | %(message)s",
 )
 logger = logging.getLogger("flashoot-chatbot")
+
+
+def _client_ip() -> str:
+    """Resolve client IP, respecting common proxy headers used by Render."""
+    forwarded_for = request.headers.get("X-Forwarded-For", "")
+    if forwarded_for:
+        return forwarded_for.split(",")[0].strip()
+    return request.remote_addr or "unknown"
+
+
+def _check_rate_limit(ip: str) -> tuple[bool, str]:
+    """Apply simple in-memory per-IP rate and cooldown limits."""
+    now = time.time()
+    window_start = now - RATE_LIMIT_WINDOW_SECONDS
+
+    with _rate_limit_lock:
+        timestamps = _request_timestamps[ip]
+        while timestamps and timestamps[0] < window_start:
+            timestamps.popleft()
+
+        last_seen = _last_request_time.get(ip, 0)
+        if now - last_seen < MIN_SECONDS_BETWEEN_REQUESTS:
+            return False, "Please wait a moment before sending another message."
+
+        if len(timestamps) >= RATE_LIMIT_REQUESTS:
+            return False, "Too many requests. Please try again later."
+
+        timestamps.append(now)
+        _last_request_time[ip] = now
+
+    return True, ""
 
 
 @dataclass
@@ -660,6 +701,7 @@ def _corsify(response):
 def create_app() -> Flask:
     """Flask app factory for Render/local HTTP API."""
     app = Flask(__name__)
+    app.config["MAX_CONTENT_LENGTH"] = MAX_REQUEST_BYTES
 
     @app.after_request
     def _after_request(response):
@@ -678,20 +720,30 @@ def create_app() -> Flask:
         if request.method == "OPTIONS":
             return ("", 204)
 
+        ip = _client_ip()
+        allowed, limit_message = _check_rate_limit(ip)
+        if not allowed:
+            logger.warning("Rate limit blocked IP %s: %s", ip, limit_message)
+            return jsonify({"error": limit_message}), 429
+
         payload = request.get_json(silent=True) or {}
         message = (payload.get("message") or "").strip()
         if not message:
             return jsonify({"error": "message is required"}), 400
 
+        if len(message) > MAX_MESSAGE_CHARS:
+            logger.warning("Rejected oversized message from IP %s: %s chars", ip, len(message))
+            return jsonify({"error": f"message is too long. Maximum {MAX_MESSAGE_CHARS} characters allowed."}), 413
+
         try:
-            logger.info("API request question: %s", message)
+            logger.info("API request from %s | question: %s", ip, message)
             chatbot = _get_chatbot()
             answer = chatbot.ask(message)
-            logger.info("API response answer: %s", answer)
+            logger.info("API response to %s | answer: %s", ip, answer)
             return jsonify({"reply": answer})
         except Exception as e:
             logger.exception("API chat processing failed")
-            return jsonify({"error": f"Failed to process request: {e}"}), 500
+            return jsonify({"error": "Failed to process request. Please try again later."}), 500
 
     return app
 

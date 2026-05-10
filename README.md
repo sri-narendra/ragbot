@@ -120,6 +120,26 @@ For production, set strict origins, for example:
 ALLOWED_ORIGINS=https://yourusername.github.io,http://127.0.0.1:5500
 ```
 
+### Basic abuse protection
+
+The `/chat` API includes simple in-memory protections against repeated calls and oversized requests:
+
+```env
+MAX_REQUEST_BYTES=4096
+MAX_MESSAGE_CHARS=500
+RATE_LIMIT_REQUESTS=12
+RATE_LIMIT_WINDOW_SECONDS=60
+MIN_SECONDS_BETWEEN_REQUESTS=1.5
+```
+
+What this protects against:
+- repeated chatbot calls from the same IP
+- basic spam flooding
+- very large request bodies
+- very long messages that can waste tokens
+
+Important: this is app-level protection. For serious DDoS protection, also use platform/CDN protections such as Cloudflare, Render limits, or an API gateway.
+
 ## 🖥️ Frontend (`index.html`)
 
 - Open `index.html` in browser (or host via GitHub Pages)
@@ -149,6 +169,9 @@ This keeps Render startup faster and lowers RAM usage compared with `all-mpnet-b
 5. Set environment variables in Render:
    - `RUN_MODE=api`
    - `ALLOWED_ORIGINS=https://yourusername.github.io`
+   - `RATE_LIMIT_REQUESTS=12`
+   - `RATE_LIMIT_WINDOW_SECONDS=60`
+   - `MAX_MESSAGE_CHARS=500`
    - your API key variables (e.g., `GEMINI_API_KEYS`, etc.)
 6. Render provides `PORT` automatically; the Docker command uses it.
 7. Deploy and verify:
@@ -238,6 +261,8 @@ Environment variables in `.env`:
 - `OPENROUTER_API_KEYS`: Comma-separated OpenRouter API keys
 - `GEMINI_MODEL`, `MISTRAL_MODEL`, `GROQ_MODEL`, `OPENROUTER_MODEL`: Model names for each provider
 - `LLM_TEMPERATURE`, `LLM_MAX_TOKENS`: Optional generation settings
+- `MAX_REQUEST_BYTES`, `MAX_MESSAGE_CHARS`: Request/message size limits
+- `RATE_LIMIT_REQUESTS`, `RATE_LIMIT_WINDOW_SECONDS`, `MIN_SECONDS_BETWEEN_REQUESTS`: Basic per-IP abuse controls
 - `QDRANT_COLLECTION` (optional): Custom collection name
 - `QDRANT_PATH` (optional): Local vector database path, default `./qdrant_db_v3`
 - `EMBEDDING_MODEL` (optional): Custom embedding model
@@ -278,6 +303,7 @@ The chatbot handles:
 ✅ GitHub Pages-friendly frontend (`index.html`)
 ✅ Render-ready backend configuration
 ✅ Docker-ready backend deployment
+✅ Basic per-IP spam/rate-limit protection
 
 ## 🔒 Security
 
